@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700|Montserrat:600&display=swap');
+
+.home {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: rgb(47, 51, 66);
+
+    padding-top: 80px;
+  }
+
+  .description {
+    color: rgb(121, 124, 138);
+  }
+  
