@@ -1,0 +1,18 @@
+.vl {
+    position: fixed;
+    top: 100%;
+    left: 38px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-left: 2px solid black;
+    height: 250px;
+  }
+
+  .logos {
+    position: fixed;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    list-style: none;
+  }

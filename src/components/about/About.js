@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import "./About.css"
 
 class About extends Component {
   render() {
     return (
         <div className="about" id="about">
-          <h2>About</h2>
+          <div className="title"><span>About</span></div>
           <h2>Do you see how we left that first useState argument blank? We won’t actually be using that value because we will be grabbing the scrollTop directly. In addition, we will pass our function a callback so that it can return the scroll data back to th
 2. Add the main scroll handler functionDo you see how we left that first useState argument blank? We won’t actually be using that value because we will be grabbing the scrollTop directly. In addition, we will pass our function a callback so that it can return the scroll data back to th
 2. Add the main scroll handler function

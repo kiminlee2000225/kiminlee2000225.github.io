@@ -3,7 +3,6 @@ import { Link } from "react-scroll";
 import './NavBar.css';
 import useDocumentScrollThrottled from '../utilities/useDocumentScrollThrottled.js';
 
-
 function Navbar() {
     const [shouldHideHeader, setShouldHideHeader] = useState(false);
     const [shouldShowShadow, setShouldShowShadow] = useState(false);
@@ -35,7 +34,7 @@ function Navbar() {
                             spy={true} 
                             smooth={true} 
                             duration={500} 
-                            className="home" 
+                            className="homeLink"
                             activeClass="active">
                             Home
                         </Link>
@@ -46,7 +45,7 @@ function Navbar() {
                             spy={true} 
                             smooth={true} 
                             duration={500} 
-                            className="about" 
+                            className="aboutLink" 
                             activeClass="active">
                             About
                         </Link>
@@ -57,7 +56,7 @@ function Navbar() {
                             spy={true} 
                             smooth={true} 
                             duration={500} 
-                            className="resume" 
+                            className="resumeLink" 
                             activeClass="active">
                             Resume
                         </Link>
@@ -68,7 +67,7 @@ function Navbar() {
                             spy={true} 
                             smooth={true} 
                             duration={500} 
-                            className="games" 
+                            className="gamesLink" 
                             activeClass="active">
                             Games
                         </Link>
@@ -79,7 +78,7 @@ function Navbar() {
                             spy={true} 
                             smooth={true} 
                             duration={500} 
-                            className="projects" 
+                            className="projectsLink" 
                             activeClass="active">
                             Projects
                         </Link>
@@ -90,7 +89,7 @@ function Navbar() {
                             spy={true} 
                             smooth={true} 
                             duration={500} 
-                            className="contact" 
+                            className="contactLink" 
                             activeClass="active">
                             Contacts
                         </Link>

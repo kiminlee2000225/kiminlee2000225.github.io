@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Home.css'
+import PortraitImage from './portrait.jpg';
 import { Parallax } from 'react-parallax';
 
 const image1 =
@@ -29,11 +30,16 @@ class Home extends Component {
   render() {
     return (
         <div className="home" id="home">
-          <h3>Hi, I'm</h3>
-          <h1><span style={{color: '#ff0000'}}>Kimin</span> Lee.</h1>
-          <h1 className="description">I develop <span style={{color: '#ff5c4a'}}>Software</span> and <span style={{color: '#ff5c4a'}}>Games</span>.</h1>
-          <div style={styles}>
-    <Parallax bgImage={image1} strength={500}>
+          <div className="introText">
+            <h3>Hi, my name is</h3>
+            <h2><span style={{color: '#ff3c26'}}>Kimin</span> Lee.</h2>
+            <h1>I develop <span style={{color: '#ff5c4a'}}>Software</span> and <span style={{color: '#ff5c4a'}}>Games</span>.</h1>
+          </div>
+          <div className="imageDiv">
+            <img className="portrait" src={PortraitImage}></img>
+          </div>
+          {/* <div style={styles}> */}
+    {/* <Parallax bgImage={image1} strength={500}>
       <div style={{ height: 500, width: 200 }}>
         <div style={insideStyles}>HTML inside the parallax</div>
       </div>
@@ -76,8 +82,8 @@ class Home extends Component {
       </div>
     </Parallax>
     <div style={{ height: 500 }} />
-    <h2>{"\u2728"}</h2>
-  </div>
+    <h2>{"\u2728"}</h2> */}
+  {/* </div> */}
         </div>
     );
   }
