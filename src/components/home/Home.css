@@ -1,28 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:700|Montserrat:600&display=swap');
 
 .home {
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-  font-size: 13px;
-  padding-top: 63px;
-  margin: auto;
   background-color: #F8F9FE;
   width: 100%;
-  height: 770px;
+  height: 815px;
 }
 
-.home .introText {
+.homeComponents {
+  height: 100%;
+  top: 35%;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  padding: 0px 210px;
   position: relative;
-  top: 22%;
-  padding: 0px 80px;
-  padding: auto;
+}
+
+.introText {
+  text-align: left;
   float: left;
+  margin: 0;
   color: rgb(47, 51, 66);
 }
 
 .introText h1 {
   margin: 0;
-  font-size: 80px;
+  font-size: 40px;
   padding-top: 70px;
   padding-left: 4px;
   letter-spacing: 5px;
@@ -32,21 +34,26 @@
   margin: 0;
   letter-spacing: 5px;
   padding-top: 10px;
-  font-size: 100px;
+  font-size: 50px;
 }
 
 .introText h3 {
   margin: 0;
-  font-size: 40px;
+  font-size: 20px;
   padding-left: 4px;
   letter-spacing: 1px;
 }
 
-/* .scrollImage {  
+.scrollImage {  
   position: relative;  
   height: 50px;
-  width: 65px;
-  padding: 0px 80px;
-  top: 40%;
+  width: 55px;
+}
+.scrollButton {
+  position: relative;  
+  top: 90%;
   float: right;
-} */
+  height: 20px;
+  width: 15px;
+  margin: 0px 80px;
+}

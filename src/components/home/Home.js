@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Home.css'
 import { Parallax } from 'react-parallax';
 import scrollDownImage from './scrollDownImage.jpg';
+import { Link } from "react-scroll";
 
 const image1 =
   "https://images.unsplash.com/photo-1498092651296-641e88c3b057?auto=format&fit=crop&w=1778&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D";
@@ -30,13 +31,25 @@ class Home extends Component {
   render() {
     return (
         <div className="home" id="home">
+                        <div className="scrollButton">
+              <Link
+                              to="about" 
+                              spy={true} 
+                              smooth={true} 
+                              duration={500} 
+                              className="aboutLink"
+                              activeClass="active">
+                          </Link>
+                <img className="scrollImage" src={scrollDownImage}></img>
+              </div>
+          <div className="homeComponents">
             <div className="introText">
-              <h3>Hi, I'm</h3>
-              <h2><span style={{color: '#ff3c26'}}>Kimin</span> Lee.</h2>
-              <h1>I develop <span style={{color: '#ff5c4a'}}>Software</span> and <span style={{color: '#ff5c4a'}}>Games</span>.</h1>
-            </div>
-            {/* <img className="scrollImage" src={scrollDownImage}></img> */}
-
+                <h3>Hi, I'm</h3>
+                <h2><span style={{color: '#ff3c26'}}>Kimin</span> Lee.</h2>
+                <h1>I develop <span style={{color: '#ff5c4a'}}>Software</span> and <span style={{color: '#ff5c4a'}}>Games</span>.</h1>
+              </div>
+          </div>
+          
           {/* <div style={styles}> */}
     {/* <Parallax bgImage={image1} strength={500}>
       <div style={{ height: 500, width: 200 }}>

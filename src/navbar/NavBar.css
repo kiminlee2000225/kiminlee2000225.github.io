@@ -10,7 +10,7 @@
   height: 75px;
   background-color: #fff;
   color: #333;
-  transform: translateY(0);
+  transform: translateY(05);
   transition: transform 0.3s ease;
 }
 

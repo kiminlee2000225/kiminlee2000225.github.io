@@ -6,27 +6,44 @@ import useDocumentScrollThrottled from '../utilities/useDocumentScrollThrottled.
 function Navbar() {
     const [shouldHideHeader, setShouldHideHeader] = useState(false);
     const [shouldShowShadow, setShouldShowShadow] = useState(false);
+    const [docked, setDocked] = useState(false);
+    const [initialHidden, setInitialHidden] = useState(true);
   
     const MINIMUM_SCROLL = 1;
     const TIMEOUT_DELAY = 1;
+    
   
     useDocumentScrollThrottled(callbackData => {
       const { previousScrollTop, currentScrollTop } = callbackData;
       const isScrolledDown = previousScrollTop < currentScrollTop;
       const isMinimumScrolled = currentScrollTop > MINIMUM_SCROLL;
-  
+      setInitialHidden(shouldHideHeader);
+
       setShouldShowShadow(currentScrollTop > 2);
-  
       setTimeout(() => {
-        setShouldHideHeader(isScrolledDown && isMinimumScrolled);
-      }, TIMEOUT_DELAY);
+          setShouldHideHeader(isScrolledDown && isMinimumScrolled);
+        }, TIMEOUT_DELAY);
+
+        if (docked) {
+            setTimeout(() => {
+                setShouldHideHeader(true);
+                setShouldShowShadow(false);
+                if (currentScrollTop > 2) {
+                    setDocked(false);
+                }
+            }, 300)
+        }
     });
+
+    function handleSetActive() {
+        setDocked(true);
+    }
   
-    const shadowStyle = shouldShowShadow ? 'shadow' : '';
-    const hiddenStyle = shouldHideHeader ? 'hidden' : '';
-  
+    const shadowStyle = shouldShowShadow && !docked ? 'shadow' : '';
+    const hiddenStyle = shouldHideHeader || docked || initialHidden ? 'hidden' : '';
+
     return (
-        <nav className={`navBar ${shadowStyle} ${hiddenStyle}`}>
+        <nav id="navId" className={`navBar ${shadowStyle} ${hiddenStyle}`}>
                 <ul className="navItem">
                     <li>
                         <Link
@@ -35,7 +52,8 @@ function Navbar() {
                             smooth={true} 
                             duration={500} 
                             className="homeLink"
-                            activeClass="active">
+                            activeClass="active"
+                            onClick={handleSetActive}>
                             Home
                         </Link>
                     </li>
@@ -46,7 +64,8 @@ function Navbar() {
                             smooth={true} 
                             duration={500} 
                             className="aboutLink" 
-                            activeClass="active">
+                            activeClass="active"
+                            onClick={handleSetActive}>
                             About
                         </Link>
                     </li>
@@ -57,7 +76,8 @@ function Navbar() {
                             smooth={true} 
                             duration={500} 
                             className="resumeLink" 
-                            activeClass="active">
+                            activeClass="active"
+                            onClick={handleSetActive}>
                             Resume
                         </Link>
                     </li>
@@ -68,7 +88,8 @@ function Navbar() {
                             smooth={true} 
                             duration={500} 
                             className="gamesLink" 
-                            activeClass="active">
+                            activeClass="active"
+                            onClick={handleSetActive}>
                             Games
                         </Link>
                     </li>
@@ -79,7 +100,8 @@ function Navbar() {
                             smooth={true} 
                             duration={500} 
                             className="projectsLink" 
-                            activeClass="active">
+                            activeClass="active"
+                            onClick={handleSetActive}>
                             Projects
                         </Link>
                     </li>
@@ -90,7 +112,8 @@ function Navbar() {
                             smooth={true} 
                             duration={500} 
                             className="contactLink" 
-                            activeClass="active">
+                            activeClass="active"
+                            onClick={handleSetActive}>
                             Contacts
                         </Link>
                     </li>
