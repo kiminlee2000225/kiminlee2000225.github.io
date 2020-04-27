@@ -1,52 +1,52 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:700|Montserrat:600&display=swap');
 
 .home {
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    font-size: 13px;
-    color: rgb(47, 51, 66);
-
-    padding: 0px 80px;
-    padding-top: 63px;
-
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #F8F9FE;
-
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-  }
-
-.portrait {
-  position: center;
-  height: 685px;
-  width: 500px;
-}
-
-.imageDiv {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 0%;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  padding-top: 63px;
+  margin: auto;
+  background-color: #F8F9FE;
+  width: 100%;
+  height: 770px;
 }
 
 .home .introText {
-  justify-content: center;
-  top: 50%;
-  margin: auto;
+  position: relative;
+  top: 22%;
+  padding: 0px 80px;
   padding: auto;
+  float: left;
   color: rgb(47, 51, 66);
 }
 
 .introText h1 {
-  font-size: 50px;
+  margin: 0;
+  font-size: 80px;
+  padding-top: 70px;
+  padding-left: 4px;
+  letter-spacing: 5px;
 }
 
 .introText h2 {
-  font-size: 50px;
+  margin: 0;
+  letter-spacing: 5px;
+  padding-top: 10px;
+  font-size: 100px;
 }
 
 .introText h3 {
-  font-size: 20px;
+  margin: 0;
+  font-size: 40px;
+  padding-left: 4px;
+  letter-spacing: 1px;
 }
+
+/* .scrollImage {  
+  position: relative;  
+  height: 50px;
+  width: 65px;
+  padding: 0px 80px;
+  top: 40%;
+  float: right;
+} */

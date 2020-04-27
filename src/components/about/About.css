@@ -4,7 +4,7 @@
 }
 
 .title {
-    width: 70%;
+    width: 50%;
     text-align: left;
     border-bottom: 1px solid rgb(47, 51, 66);
     line-height: 0.1em;
@@ -17,3 +17,15 @@
     padding-right: 10px;
     font-size: 50px;
 }
+
+.portrait {
+    height: 685px;
+    width: 500px;
+  }
+  
+  .imageDiv {
+    padding-right: 80px;
+    position: relative;
+    float: right;
+    top: 5%;
+  }

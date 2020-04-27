@@ -1,7 +1,7 @@
 .vl {
     position: fixed;
     top: 100%;
-    left: 38px;
+    left: 20px;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);

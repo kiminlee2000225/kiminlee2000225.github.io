@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:700|Montserrat:700,900&display=swap');
-
 .navBar {
   position: fixed;
+  z-index : 1;
   top: 0;
   left: 0;
   display: flex;
@@ -45,9 +44,9 @@
   }
 
 .navBar ul a:hover {
-  color: red;
+  color: #ff3c26;
   }
 
 .navBar ul .active {
-  color: red;
+  color: #ff3c26;
   }

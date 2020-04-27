@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Home.css'
-import PortraitImage from './portrait.jpg';
 import { Parallax } from 'react-parallax';
+import scrollDownImage from './scrollDownImage.jpg';
 
 const image1 =
   "https://images.unsplash.com/photo-1498092651296-641e88c3b057?auto=format&fit=crop&w=1778&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D";
@@ -30,14 +30,13 @@ class Home extends Component {
   render() {
     return (
         <div className="home" id="home">
-          <div className="introText">
-            <h3>Hi, my name is</h3>
-            <h2><span style={{color: '#ff3c26'}}>Kimin</span> Lee.</h2>
-            <h1>I develop <span style={{color: '#ff5c4a'}}>Software</span> and <span style={{color: '#ff5c4a'}}>Games</span>.</h1>
-          </div>
-          <div className="imageDiv">
-            <img className="portrait" src={PortraitImage}></img>
-          </div>
+            <div className="introText">
+              <h3>Hi, I'm</h3>
+              <h2><span style={{color: '#ff3c26'}}>Kimin</span> Lee.</h2>
+              <h1>I develop <span style={{color: '#ff5c4a'}}>Software</span> and <span style={{color: '#ff5c4a'}}>Games</span>.</h1>
+            </div>
+            {/* <img className="scrollImage" src={scrollDownImage}></img> */}
+
           {/* <div style={styles}> */}
     {/* <Parallax bgImage={image1} strength={500}>
       <div style={{ height: 500, width: 200 }}>
