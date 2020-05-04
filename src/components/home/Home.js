@@ -31,7 +31,7 @@ class Home extends Component {
   render() {
     return (
         <div className="home" id="home">
-                        <div className="scrollButton">
+          <div className="scrollButton"> 
               <Link
                               to="about" 
                               spy={true} 
@@ -45,7 +45,7 @@ class Home extends Component {
           <div className="homeComponents">
             <div className="introText">
                 <h3>Hi, I'm</h3>
-                <h2><span style={{color: '#ff3c26'}}>Kimin</span> Lee.</h2>
+                <h2><span style={{color: '#ff5c4a'}}>Kimin</span> Lee.</h2>
                 <h1>I develop <span style={{color: '#ff5c4a'}}>Software</span> and <span style={{color: '#ff5c4a'}}>Games</span>.</h1>
               </div>
           </div>
