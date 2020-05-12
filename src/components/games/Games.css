@@ -1,7 +1,8 @@
 .games {
     background-color: #F8F9FE;
     width: 100%;
-    height: 734px;
+    min-height: 50em;
+    height: 100vh;
     padding-top: 20px;
 }
 

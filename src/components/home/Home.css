@@ -3,12 +3,15 @@
 .home {
   background-color: #F8F9FE;
   width: 100%;
-  height: 754px;
+  min-height: 50em;
+  height: 100vh;
 }
 
 .homeComponents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100%;
-  top: 35%;
   font-family: 'Lato', sans-serif;
   font-size: 13px;
   padding: 0px 210px;
@@ -17,6 +20,7 @@
 
 .introText {
   text-align: left;
+  width: 80%;
   float: left;
   margin: 0;
   color: rgb(47, 51, 66);
