@@ -1,16 +1,17 @@
 .about {
     width: 100%;
-    min-height: 50em;
+    min-width: 80em;
+    min-height: 47em;
     height: 100vh;
-    padding-top: 20px;
     background-color: #f2f2f2;
 }
 
 .aboutComponents {
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0px 210px;
+    padding: 0 10em;
     position: relative;
 }
 
@@ -30,13 +31,15 @@
 }
 
 .portrait {
-    /* height: 645px; */
-    width: 25em;
-    /* width: 430px; */
-  }
+    /* height: auto;
+    width: 40vh; */
+    width: 390px;;
+    height: auto;
+    
+}
   
 .imageDiv {
-    padding-left: 50px;
+    padding-left: 5em;
 }
 
 .aboutWrapper {
@@ -51,11 +54,47 @@
 }
 
 .titleAlign {
+    min-width: 100%;
     width: 80%;
     display: flex;
     flex-direction: column;
 }
 
+.aboutText {
+    float: left;
+    padding-top: 1vh;
+    font-size: 13px;
+    max-width: 700px;
+}
+
+.titleWrapper {
+    
+    align-items: center;
+    display: flex;
+}
+
 @media only screen and (max-width: 600px) {
 
 } 
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media screen and (max-width: 480px) {
+    .portrait {
+        /* height: auto;
+        width: 40vh; */
+        width: 100px;;
+        height: auto;
+        
+    }
+    
+    .about {
+        width: 100%;
+        min-height: 47em;
+        height: 100vh;
+        background-color: #f2f2f2;
+    }
+    
+}

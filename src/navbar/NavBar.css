@@ -41,12 +41,13 @@
   padding: 15px;
   margin: 0 5px;
   position: center;
-  }
+}
 
 .navBar ul a:hover {
   color: #ff3c26;
-  }
+  cursor: pointer;
+}
 
 .navBar ul .active {
   color: #ff3c26;
-  }
+}

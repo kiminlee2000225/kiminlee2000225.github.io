@@ -17,14 +17,32 @@ componentDidMount() {
     return (
         <div className="resume" id="resume">
           <div className="resumeComponents">
-            <div className="title"><span>Resume</span></div>
+            <div className="titleAlign">
+              <div className="title"><span>Resume</span></div>
+              <div className="resumeCenter">
+                  <div className="resumeWrapper">
+                    <div className="resumeDisplay">
+                      <section className="resumePage" id="main">
+                        <object data="assets/files/Resume.pdf#view=FitH" type="application/pdf" 
+                          className="resumePdf">
+                          <embed src="assets/files/Resume.pdf#view=FitH" type="application/pdf"
+                          className="resume-pdf"/>
+                        </object>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            {/* <div className="title"><span>Resume</span></div>
             <section className="resumePage" id="main">
               <object data="assets/files/Resume.pdf#view=FitH" type="application/pdf" 
                 className="resumePdf">
                 <embed src="assets/files/Resume.pdf#view=FitH" type="application/pdf"
                   className="resume-pdf"/>
               </object>
-            </section>
+            </section> */}
           </div>
         </div>
     );

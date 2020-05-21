@@ -23,11 +23,11 @@ class App extends Component {
           <Element name="about">
             <About/>
           </Element>
-          <Element name="games">
-            <Games/>
-          </Element>
           <Element name="projects">
             <Projects/>
+          </Element>
+          <Element name="games">
+            <Games/>
           </Element>
           <Element name="resume">
             <Resume/>

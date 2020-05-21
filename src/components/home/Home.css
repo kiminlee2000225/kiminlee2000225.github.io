@@ -3,19 +3,19 @@
 .home {
   background-color: #F8F9FE;
   width: 100%;
-  min-height: 50em;
+  min-width: 83em;
+  min-height: 47em;
   height: 100vh;
 }
 
 .homeComponents {
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
-  font-family: 'Lato', sans-serif;
-  font-size: 13px;
-  padding: 0px 210px;
+  padding: 0 10em;
   position: relative;
+  font-family: 'Lato', sans-serif;
 }
 
 .introText {
@@ -24,40 +24,59 @@
   float: left;
   margin: 0;
   color: rgb(47, 51, 66);
+  white-space: nowrap;
 }
 
 .introText h1 {
   margin: 0;
-  font-size: 40px;
   padding-top: 70px;
-  padding-left: 4px;
   letter-spacing: 5px;
+  font-size: 45px;
 }
 
 .introText h2 {
   margin: 0;
   letter-spacing: 5px;
   padding-top: 10px;
-  font-size: 50px;
+  font-size: 70px;
 }
 
 .introText h3 {
   margin: 0;
-  font-size: 20px;
-  padding-left: 4px;
   letter-spacing: 1px;
+  font-size: 30px;
 }
 
 .scrollImage {  
-  position: relative;  
+  position: absolute;  
   height: 50px;
   width: 55px;
 }
+
 .scrollButton {
-  position: relative;  
+  position: absolute;  
   top: 90%;
   float: right;
+  right: 20px;
   height: 20px;
   width: 15px;
-  margin: 0px 80px;
+  padding-right: 10%;
+}
+
+.homeWrapper {
+  align-items: center;
+  display: flex;
+}
+
+.homeCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeAlign {
+  min-width: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
 }

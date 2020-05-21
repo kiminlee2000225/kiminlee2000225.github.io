@@ -71,18 +71,6 @@ function Navbar() {
                     </li>
                     <li>
                         <Link
-                            to="games" 
-                            spy={true} 
-                            smooth={true} 
-                            duration={500} 
-                            className="gamesLink" 
-                            activeClass="active"
-                            onClick={handleSetActive}>
-                            Games
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
                             to="projects" 
                             spy={true} 
                             smooth={true} 
@@ -91,6 +79,18 @@ function Navbar() {
                             activeClass="active"
                             onClick={handleSetActive}>
                             Projects
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to="games" 
+                            spy={true} 
+                            smooth={true} 
+                            duration={500} 
+                            className="gamesLink" 
+                            activeClass="active"
+                            onClick={handleSetActive}>
+                            Games
                         </Link>
                     </li>
                     <li>
