@@ -19,16 +19,16 @@ function Games() {
   return (
       <div className="games" id="games">
         <div className="gameComponents">
-          <div className="titleAlign">
-            <div className="title"><span>Games</span></div>
-              <div className="gameCenter">
-                <div className="gameWrapper">
+          <div className="titleAlignGames">
+          <div className="titleGames"><span>Games</span></div>
+            <div className="gameCenter">
+              <div className="gameWrapper">
                   <GamesGrid games={games} setDrawer={setDrawer}/>
                   <CSSTransition in={!!drawer} timeout={500} classNames="popup" unmountOnExit>
                     <Overlay className={"overlayComponent"} hasBackdrop={false} canOutsideClickClose={true} 
                               usePortal={false} isOpen={!!drawer} onClose={() => setDrawer(null)}>
-                      {drawer ? (drawer.component) : <></>}
                       <button className="exitButton" onClick={() => setDrawer(null)}>x</button>
+                      {drawer ? (drawer.component) : <></>}
                     </Overlay>
                   </CSSTransition>
               </div>

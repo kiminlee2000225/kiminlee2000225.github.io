@@ -41,12 +41,6 @@
   justify-content: center;
 }
 
-.titleAlign {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-}
-
 .resumeDisplay {
   padding-top: 5vh;
 }

@@ -26,12 +26,6 @@
     justify-content: center;
 }
 
-.titleAlign {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-}
-
 .projectsText {
     font-size: 13px;
     float: left;

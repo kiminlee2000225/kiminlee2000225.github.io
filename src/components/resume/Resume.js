@@ -18,9 +18,9 @@ componentDidMount() {
         <div className="resume" id="resume">
           <div className="resumeComponents">
             <div className="titleAlign">
-              <div className="title"><span>Resume</span></div>
               <div className="resumeCenter">
-                  <div className="resumeWrapper">
+                <div className="resumeWrapper">
+                  <div className="title"><span>Resume</span></div>
                     <div className="resumeDisplay">
                       <section className="resumePage" id="main">
                         <object data="assets/files/Resume.pdf#view=FitH" type="application/pdf" 

@@ -37,12 +37,6 @@ button {
     display: flex;
 }
 
-.titleAlign {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-}
-
 .contactText {
     font-size: 13px;
     padding-top: 5vh;
