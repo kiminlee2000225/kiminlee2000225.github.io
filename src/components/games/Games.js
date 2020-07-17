@@ -1,18 +1,21 @@
 import React from 'react';
-import "./Games.css"
+import "./Games.css";
 import { Overlay } from '@blueprintjs/core'; 
 import posed, { PoseGroup } from 'react-pose';
-import MaysJourney from "./mygames/MaysJourneyGame.js"
-import DefenseHorizon from "./mygames/DefenseHorizonGame.js"
 import { CSSTransition } from 'react-transition-group';
+import MaysJourney from "./mygames/MaysJourneyGame.js";
+import DefenseHorizon from "./mygames/DefenseHorizonGame.js";
+import Scoops from "./mygames/ScoopsGame.js";
+import HostageEscapeRoom from "./mygames/HostageEscapeRoomGame.js";
+import MarbleSolitaire from "./mygames/MarbleSolitaireGame.js";
 
 const rowSize = 3;
 
 const games = [{image: '/assets/images/MaysJourneyImage.png', title: "May's Journey", description: "3D Puzzle Programming Game", component: <MaysJourney/>},
                {image: '/assets/images/DefenseHorizonImage.png', title: "Defense Horizon", description: "FPS Turret Defense Game", component: <DefenseHorizon/>},
-               {image: "", title: "Scoops", description: "Mobile Bubble Popper Word Game", component: <DefenseHorizon/>},
-               {image: "", title: "Hostage Escape Room", description: "First Person Digital Escape Room", component: <DefenseHorizon/>},
-               {image: "", title: "Marble Solitaire", description: "Peg Solitaire", component: <DefenseHorizon/>}];
+               {image: "/assets/images/ScoopsImage.png", title: "Scoops", description: "Mobile Bubble Popper Word Game", component: <Scoops/>},
+               {image: "/assets/images/HostageEscapeRoomImage.png", title: "Hostage Escape Room", description: "First Person Digital Escape Room", component: <HostageEscapeRoom/>},
+               {image: "/assets/images/MarbleSolitaireImage.png", title: "Marble Solitaire", description: "Peg Solitaire", component: <MarbleSolitaire/>}];
 
 function Games() {
   const [drawer, setDrawer] = React.useState(null);

@@ -19,9 +19,9 @@ class MaysJourneyGame extends Component {
              a game that serves  as an entertainment and an educational tool to support students learn how to code through a fun puzzle 
              game experience. 
             </h3>
+            <h2><a href="https://maysjourney.com/index.html" style={{textDecoration: 'none', color: "#222626"}}>Game Link</a></h2>
             <h2>Tools used</h2>
             <h3>Unity, C#, Python, Maximo</h3>
-            <h2><a href="https://maysjourney.com/index.html" style={{textDecoration: 'none', color: "#222626"}}>Game Link</a></h2>
             <h2>What I did</h2>
             <h3>I’ve worked on various aspects of creating this game, ranging from level design/programming, NPC animations, player program 
               interface, and data science. First of all, I designed and programmed several advanced puzzle levels. For example, I built a level
@@ -37,7 +37,7 @@ class MaysJourneyGame extends Component {
                   on educational games and creating a help tool for the players to utilize when they were stuck on a puzzle. Utilizing pickle, 
                   numpy, and the scikit-learn library, I split the data into predicting and testing data frames for a valid prediction. 
             </h3>
-            <h3>Not only did I learn numerous skills regarding game development, I also learned how to work with a team. Communicating mostly 
+            <h3 className="lastParagraph">Not only did I learn numerous skills regarding game development, I also learned how to work with a team. Communicating mostly 
               through Slack offline and having weekly meetings, our team was able to stay on top of what everyone was working on. Our team utilized
                GitHub as our source control for Unity, allowing us to maintain our large amount of files and data in a structured format. </h3>
             </div>

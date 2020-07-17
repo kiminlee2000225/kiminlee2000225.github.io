@@ -36,7 +36,7 @@ class Home extends Component {
               <div className="homeCenter">
                   <div className="homeWrapper">
                   <div className="scrollButton"> 
-              <Link
+                  <Link
                               to="about" 
                               spy={true} 
                               smooth={true} 

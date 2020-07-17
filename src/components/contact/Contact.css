@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:700|Montserrat:600&display=swap');
 
 .contact {
-    background-color: #f2f2f2;
+    background-color: #F8F9FE;
     width: 100%;
     min-width: 80em;
     min-height: 47em;
-    height: 100vh;
+    height: 105vh;
 }
 
 .contactComponents {
-    height: 100%;
+    height: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,4 +56,23 @@ button {
 
 .emailButton {
     cursor: pointer;
+}
+
+.titleContacts{
+    width: 100%;
+    text-align: left;
+    color: rgb(47, 51, 66);
+    padding-bottom: 3vh;
+}
+
+.titleAlignContacts {
+    min-width: 92%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.titleContacts span {
+    letter-spacing: 1px;
+    font-size: 30px;
 }

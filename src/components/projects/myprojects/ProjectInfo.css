@@ -1,4 +1,4 @@
-.gameContext {
+.projectContext {
     font-size: 2vh;
     position: relative;
     height: 100%;
@@ -11,17 +11,36 @@
     color: black;
 }
 
-.gameInfoWrapper {
+.projectInfoWrapper {
     width: 100%;
     height: 100%;
     background-size: cover;
     background-position: center;
     justify-content: center;
     align-items: center;
-    padding: 3vh 3vh;
+    padding: 4vh 3vh;
 }
 
-.gameTitle {
+.projectTitle {
     text-align: center;
     font-size: 6vh;
+}
+
+.lastParagraph {
+    padding-bottom: 4vh;
+}
+
+.youtubeVideo {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25;
+    height: 0;
+}
+
+.iFrame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

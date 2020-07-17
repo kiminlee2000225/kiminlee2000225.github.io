@@ -2,7 +2,7 @@
     width: 100%;
     min-width: 80em;
     min-height: 47em;
-    height: 100vh;
+    height: 115vh;
     background-color: #f2f2f2;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .titleAlignAbout {
-    min-width: 100%;
+    min-width: 92%;
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -31,7 +31,7 @@
 
 .titleAbout span {
     letter-spacing: 1px;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .portrait {
@@ -58,7 +58,7 @@
 .aboutText {
     float: left;
     padding-top: 1vh;
-    font-size: 2vh;
+    font-size: 13px;
     max-width: 700px;
 }
 

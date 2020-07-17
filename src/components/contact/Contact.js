@@ -6,10 +6,10 @@ class Contact extends Component {
     return (
         <div className="contact" id="contact">
           <div className="contactComponents">
-            <div className="titleAlign">
+            <div className="titleAlignContacts">
+              <div className="titleContacts"><span>Contact</span></div>
                 <div className="contactCenter">
                     <div className="contactWrapper">
-                    <div className="title"><span>Contact</span></div>
                       <div className="contactText">
                         <div className="contactMe">
                           <h1>Whether you have any questions, want to chat about your favorite game, or just want to say hi, feel free to contact me!</h1>

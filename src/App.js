@@ -29,9 +29,9 @@ class App extends Component {
           <Element name="games">
             <Games/>
           </Element>
-          <Element name="resume">
+          {/* <Element name="resume">
             <Resume/>
-          </Element>
+          </Element> */}
           <Element name="contact">
             <Contact/>
           </Element>

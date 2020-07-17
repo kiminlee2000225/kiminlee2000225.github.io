@@ -33,16 +33,6 @@ componentDidMount() {
                   </div>
                 </div>
               </div>
-
-
-            {/* <div className="title"><span>Resume</span></div>
-            <section className="resumePage" id="main">
-              <object data="assets/files/Resume.pdf#view=FitH" type="application/pdf" 
-                className="resumePdf">
-                <embed src="assets/files/Resume.pdf#view=FitH" type="application/pdf"
-                  className="resume-pdf"/>
-              </object>
-            </section> */}
           </div>
         </div>
     );
