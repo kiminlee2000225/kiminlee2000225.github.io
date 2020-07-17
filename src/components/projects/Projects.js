@@ -24,17 +24,19 @@ function Projects() {
       <div className="projects" id="projects">
         <div className="projectsComponents">
           <div className="titleAlignProjects">
-          <div className="titleProjects"><span>Projects</span></div>
             <div className="projectsCenter">
               <div className="projectsWrapper">
-                  <ProjectsGrid projects={projects} setDrawer={setDrawer}/>
+                <div className="projectsText">
+                  <div className="titleProjects"><span>Projects</span></div>
+                    <ProjectsGrid projects={projects} setDrawer={setDrawer}/>
+                </div>
                   <CSSTransition in={!!drawer} timeout={500} classNames="popup" unmountOnExit>
-                    <Overlay className={"overlayComponent"} hasBackdrop={false} canOutsideClickClose={true} 
-                              usePortal={false} isOpen={!!drawer} onClose={() => setDrawer(null)}>
-                      <button className="exitButton" onClick={() => setDrawer(null)}>x</button>
-                      {drawer ? (drawer.component) : <></>}
-                    </Overlay>
-                  </CSSTransition>
+                  <Overlay className={"overlayComponent"} hasBackdrop={false} canOutsideClickClose={true} 
+                            usePortal={false} isOpen={!!drawer} onClose={() => setDrawer(null)}>
+                    <button className="exitButton" onClick={() => setDrawer(null)}>x</button>
+                    {drawer ? (drawer.component) : <></>}
+                  </Overlay>
+                </CSSTransition>
               </div>
             </div>
           </div>

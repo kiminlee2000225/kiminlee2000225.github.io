@@ -131,14 +131,15 @@
 }
 
 .overlayComponent {
+    margin-left: -2.5%;
     background-color: none;
     outline: none;
     position: absolute;
     justify-content: center;
     display: flex;
-    left: 17%;
-    width: 70%;
-    height: 80%;
+    position: center;
+    width: 1150px;
+    height: 700px;
     background-color: gray;
 }
 
@@ -148,7 +149,7 @@
     box-shadow: none;
     cursor: pointer;
     position: absolute;
-    top: 2%;
+    top: 1%;
     left: 96%;
     font-size: 30px;
     font-weight: bold;

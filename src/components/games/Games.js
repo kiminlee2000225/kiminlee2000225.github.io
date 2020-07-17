@@ -23,10 +23,12 @@ function Games() {
       <div className="games" id="games">
         <div className="gameComponents">
           <div className="titleAlignGames">
-          <div className="titleGames"><span>Games</span></div>
             <div className="gameCenter">
               <div className="gameWrapper">
-                  <GamesGrid games={games} setDrawer={setDrawer}/>
+                <div className="gameText">
+                  <div className="titleGames"><span>Games</span></div>
+                   <GamesGrid games={games} setDrawer={setDrawer}/>
+                </div>
                   <CSSTransition in={!!drawer} timeout={500} classNames="popup" unmountOnExit>
                     <Overlay className={"overlayComponent"} hasBackdrop={false} canOutsideClickClose={true} 
                               usePortal={false} isOpen={!!drawer} onClose={() => setDrawer(null)}>

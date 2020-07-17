@@ -8,10 +8,10 @@ class About extends Component {
         <div className="about" id="about">
           <div className="aboutComponents">
             <div className="titleAlignAbout">
-              <div className="titleAbout"><span>About</span></div>
               <div className="aboutCenter">
                 <div className="aboutWrapper">
                   <div className="aboutText">
+                  <div className="titleAbout"><span>About</span></div>
                       <h2>Hi! I’m Kimin, a user-focused software engineer and a player-minded 
                         game developer. I’m currently pursuing a Bachelor of Science degree in 
                         Computer Science and Game Development at Northeastern University. I’m 

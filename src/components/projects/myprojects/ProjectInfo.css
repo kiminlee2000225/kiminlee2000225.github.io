@@ -1,5 +1,5 @@
 .projectContext {
-    font-size: 2vh;
+    font-size: 15px;
     position: relative;
     height: 100%;
     border: none;
@@ -23,7 +23,7 @@
 
 .projectTitle {
     text-align: center;
-    font-size: 6vh;
+    font-size: 35px;
 }
 
 .lastParagraph {
