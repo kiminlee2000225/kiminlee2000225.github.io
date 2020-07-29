@@ -15,7 +15,7 @@ class ScoopsGame extends Component {
               making longer words. How high can you score?</h3>
             <h3>This project was done as a part of Peach Beach Studios. Peach Beach Studios is a small game developing company made up 
               of seven intrepid members. Our mission is to create relaxing but dynamic games with twists on classic tropes. We're based
-               in the heart of Boston and are doing our best to deliver great gaming content via smartphone.</h3>
+               in the heart of Boston and are doing our best to deliver great gaming content.</h3>
             <h2><a href="https://youtu.be/PGXGQHrS2Fo" style={{textDecoration: 'none', color: "#222626"}}>Gameplay Video</a></h2>
             <div className="youtubeVideo" >
               <iframe className="iFrame" src="https://www.youtube.com/embed/uflovP2H-bM" frameBorder="0"/>

@@ -31,7 +31,7 @@ function Projects() {
                     <ProjectsGrid projects={projects} setDrawer={setDrawer}/>
                 </div>
                   <CSSTransition in={!!drawer} timeout={500} classNames="popup" unmountOnExit>
-                  <Overlay className={"overlayComponent"} hasBackdrop={false} canOutsideClickClose={true} 
+                  <Overlay className="overlayComponent" hasBackdrop={false} canOutsideClickClose={true} 
                             usePortal={false} isOpen={!!drawer} onClose={() => setDrawer(null)}>
                     <button className="exitButton" onClick={() => setDrawer(null)}>x</button>
                     {drawer ? (drawer.component) : <></>}
@@ -89,7 +89,7 @@ function formatGrid(projects) {
 function Tile({project, setDrawer}) {
   return(
       <div className="tile">
-        <div className="tileInner" onClick={() => setDrawer(project)}>
+        <div className="tileInnerProject" onClick={() => setDrawer(project)}>
             <img className="tileImage" src={project.image}/>
             <div className="tileTitle">{project.title}</div>
             <div className="tileDescription">{project.description}</div>

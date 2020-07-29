@@ -12,6 +12,7 @@
   color: #333;
   transform: translateY(05);
   transition: transform 0.3s ease;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .navBar.shadow {
@@ -36,7 +37,7 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  color: #999;
+  color: #3c4046;
   display: block;
   padding: 15px;
   margin: 0 5px;
@@ -44,10 +45,10 @@
 }
 
 .navBar ul a:hover {
-  color: #ff3c26;
+  color: #ccaa7e;
   cursor: pointer;
 }
 
 .navBar ul .active {
-  color: #ff3c26;
+  color: #dda04f;
 }

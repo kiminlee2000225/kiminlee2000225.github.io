@@ -16,7 +16,7 @@ class App extends Component {
       <div>
         <Navbar/>
         <SocialBar/>
-        <div className="elements">
+        <div className="elements" id="elements">
           <Element name="home">
             <Home/>
           </Element>

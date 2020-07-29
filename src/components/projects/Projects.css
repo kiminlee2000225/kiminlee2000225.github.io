@@ -1,9 +1,10 @@
 .projects {
-    background-color: #F8F9FE;
+    background-color: #3c4046;
     width: 100%;
     min-height: 47em;
     min-width: 80em;
     height: 120vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 .projectsComponents {
@@ -18,8 +19,9 @@
 .titleProjects {
     width: 100%;
     text-align: left;
-    color: rgb(47, 51, 66);
+    color: #fcfcfc;
     padding-bottom: 3vh;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .titleAlignProjects {
@@ -31,7 +33,7 @@
 
 .titleProjects span {
     letter-spacing: 1px;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .projectsWrapper {
@@ -43,4 +45,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.tileInnerProject {
+    height: 305px;
+    width: 325px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    background: #edeef1;
 }

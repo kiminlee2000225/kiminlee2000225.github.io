@@ -48,8 +48,8 @@ class Home extends Component {
               </div>
                     <div className="introText">
                       <h3>Hi, I'm</h3>
-                      <h2><span style={{color: '#ff5c4a'}}>Kimin</span> Lee.</h2>
-                      <h1>I develop <span style={{color: '#ff5c4a'}}>Software</span> and <span style={{color: '#ff5c4a'}}>Games</span>.</h1>
+                      <h2><span style={{color: '#dac3a5'}}>Kimin</span> Lee.</h2>
+                      <h1>I develop <span style={{color: '#dac3a5'}}>Software</span> and <span style={{color: '#dac3a5'}}>Games</span>.</h1>
                     </div>
                   </div>
                 </div>

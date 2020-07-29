@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:700|Montserrat:600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 .home {
-  background-color: #F8F9FE;
+  background-color: #3c4046;
   width: 100%;
   min-width: 83em;
   min-height: 47em;
@@ -23,8 +24,9 @@
   width: 80%;
   float: left;
   margin: 0;
-  color: rgb(47, 51, 66);
+  color: #fcfcfc;
   white-space: nowrap;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .introText h1 {

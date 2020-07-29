@@ -3,7 +3,8 @@
     min-width: 80em;
     min-height: 47em;
     height: 115vh;
-    background-color: #f2f2f2;
+    background-color: #d8c6ae;
+    font-family: 'Roboto', sans-serif;
 }
 
 .aboutComponents {
@@ -18,8 +19,15 @@
 .titleAbout {
     width: 100%;
     text-align: left;
-    color: rgb(47, 51, 66);
+    color: #202020;
     padding-bottom: 3vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.aboutText h2 {
+    line-height: 24px; 
+    color: #3c4046;
+    font-size: 18.5px;
 }
 
 .titleAlignAbout {
@@ -31,7 +39,7 @@
 
 .titleAbout span {
     letter-spacing: 1px;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .portrait {
