@@ -66,13 +66,13 @@ anime.timeline({loop: false})
     opacity: [0,1],
     easing: "easeOutExpo",
     duration: 600,
-    delay: (el, i) => 34 * (i + 1)
-  }, '-=700').add({
+    delay: (el, i) => 33 * (i + 1)
+  }, '-=690').add({
     targets: '.line_1',
     opacity: 0,
-    duration: 1000,
+    duration: 300,
     easing: "easeOutExpo",
-    delay: 100
+    delay: 20
   }, '+=300');
 
 var textWrapper = document.querySelector('.ml12 .letters2');
@@ -84,5 +84,85 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w|\.|\')
     opacity: [0,1],
     easing: "easeOutExpo",
     duration: 600,
-    delay: (el, i) => 34 * (i + 1)
-  }, '+=2640');
+    delay: (el, i) => 33 * (i + 1)
+  }, '+=2655');
+
+var textWrapper = document.querySelector('.ml13 .letters4');
+textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w|\.|\')/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: false})
+  .add({
+    targets: '.ml13 .line_2',
+    scaleY: [0,1],
+    opacity: [0.3,1],
+    easing: "easeOutExpo",
+    duration: 500,
+    delay: 3500
+  })
+  .add({
+    targets: '.ml13 .line1',
+    translateX: [0, document.querySelector('.ml13 .letters4').getBoundingClientRect().width + 543],
+    easing: "easeOutExpo",
+    duration: 1200,
+    delay: 300
+  }).add({
+    targets: '.ml13 .letter',
+    opacity: [0,1],
+    easing: "easeOutExpo",
+    duration: 500,
+    delay: (el, i) => 17 * (i + 1)
+  }, '-=1200').add({
+    targets: '.line_2',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 200
+  }, '+=300');
+
+var textWrapper = document.querySelector('.ml13 .letters5');
+textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w|\.|\')/g, "<span class='letter5'>$&</span>");
+
+  anime.timeline({loop: false})
+  .add({
+    targets: '.ml13 .letter5',
+    opacity: [0,1],
+    easing: "easeOutExpo",
+    duration: 200,
+    delay: (el, i) => 17 * (i + 1)
+  }, '+=4465');
+
+var textWrapper = document.querySelector('.ml13 .letters6');
+textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w|\.|\')/g, "<span class='letter6'>$&</span>");
+
+  anime.timeline({loop: false})
+  .add({
+    targets: '.ml13 .letter6',
+    opacity: [0,1],
+    easing: "easeOutExpo",
+    duration: 200,
+    delay: (el, i) => 18 * (i + 1)
+  }, '+=4620');
+
+var textWrapper = document.querySelector('.ml13 .letters7');
+textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w|\.|\')/g, "<span class='letter7'>$&</span>");
+
+anime.timeline({loop: false})
+.add({
+    targets: '.ml13 .letter7',
+    opacity: [0,1],
+    easing: "easeOutExpo",
+    duration: 600,
+    delay: (el, i) => 20 * (i + 1)
+}, '+=4675');
+
+var textWrapper = document.querySelector('.ml13 .letters8');
+textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w|\.|\')/g, "<span class='letter8'>$&</span>");
+
+anime.timeline({loop: false})
+.add({
+    targets: '.ml13 .letter8',
+    opacity: [0,1],
+    easing: "easeOutExpo",
+    duration: 600,
+    delay: (el, i) => 20 * (i + 1)
+}, '+=4797');

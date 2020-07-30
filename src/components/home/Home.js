@@ -36,8 +36,16 @@ class Home extends Component {
                         <span class="letters2"> Lee.</span>
                       </span>
                     </h1>
-                      {/* <h2><span style={{color: '#dac3a5'}}>Kimin</span> Lee.</h2> */}
-                      <h1>I develop <span style={{color: '#dac3a5'}}>Software</span> and <span style={{color: '#dac3a5'}}>Games</span>.</h1>
+                    <h1 class="ml13">
+                      <span class="text-wrapper">
+                        <span class="line_2 line1"></span>
+                        <span class="letters4">I develop</span>
+                        <span class="letters5"> Software</span>
+                        <span class="letters6"> and</span>
+                        <span class="letters7"> Games</span>
+                        <span class="letters8">.</span>
+                      </span>
+                    </h1>
                     </div>
                   </div>
                 </div>
