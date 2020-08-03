@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import "./Projects.css"
 import { Overlay } from '@blueprintjs/core'; 
-import posed, { PoseGroup } from 'react-pose';
+import { PoseGroup } from 'react-pose';
 import { CSSTransition } from 'react-transition-group';
 import Bento from "./myprojects/Bento.js";
 import SFFTB from "./myprojects/SFFTB.js";
 import LLB from "./myprojects/LLB.js";
 import C4CWebsite from "./myprojects/C4CWebsite.js";
 import LinGO from "./myprojects/LinGO.js";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const rowSize = 3;
 
@@ -27,7 +28,9 @@ function Projects() {
             <div className="projectsCenter">
               <div className="projectsWrapper">
                 <div className="projectsText">
+                <ScrollAnimation animateIn="fadeInDown" animateOnce={true} delay={1} >
                   <div className="titleProjects"><span>Projects</span></div>
+                  </ScrollAnimation>
                     <ProjectsGrid projects={projects} setDrawer={setDrawer}/>
                 </div>
                   <CSSTransition in={!!drawer} timeout={500} classNames="popup" unmountOnExit>
@@ -59,8 +62,9 @@ function ProjectsGrid({projects, setDrawer}) {
                       <div className="gridTile" key={i}>
                           <PoseGroup flipMove={false}>
                               {isVisible && row.map((project, j) => 
-                                <TileContainer i={i * rowSize + j} key={j}>
-                                <Tile project={project} setDrawer={setDrawer} /></TileContainer>)}
+                                <ScrollAnimation key={j} animateIn="fadeInLeft" animateOnce={true} delay={700} duration={0.8}>
+                                <Tile key={j} project={project} setDrawer={setDrawer} />
+                            </ScrollAnimation>)}
                           </PoseGroup>
                       </div>)}
                   </PoseGroup>
@@ -97,23 +101,5 @@ function Tile({project, setDrawer}) {
       </div>
   )
 }
-
-const TileContainer = posed.div({
-  enter: {
-      y: 0,
-      opacity: 1,
-      delay: ({ i }) => {
-          return 300 + (i * 200);
-      },
-      transition: {
-      y: { type: 'spring', stiffness: 1000, damping: 15 },
-      default: { duration: 300 }
-      } 
-  },
-  exit: {
-      y: 20,
-      opacity: 0,
-  },
-});
 
 export default Projects;

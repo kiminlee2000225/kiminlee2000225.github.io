@@ -16,7 +16,7 @@ class DefenseHorizonGame extends Component {
        <h2><a href="https://youtu.be/PGXGQHrS2Fo" style={{textDecoration: 'none', color: "#222626"}}>Trailer</a></h2>
        <div className="youtubeVideo" >
               <iframe className="iFrame" src="https://www.youtube.com/embed/PGXGQHrS2Fo" frameBorder="0"/>
-            </div>
+        </div>
        <h2><a href="https://github.com/kiminlee2000225/Defense-Horizon" style={{textDecoration: 'none', color: "#222626"}}>GitHub</a></h2>
        <h2><a href="https://developer.cloud.unity3d.com/share/share.html?shareId=WkpFChGqhB" 
             style={{textDecoration: 'none', color: "#222626"}}>WebGL Game Link - Please set the size to 1920 x 1080</a></h2>

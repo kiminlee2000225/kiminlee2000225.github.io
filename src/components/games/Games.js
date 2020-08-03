@@ -1,17 +1,20 @@
 import React from 'react';
 import "./Games.css";
 import { Overlay } from '@blueprintjs/core'; 
-import posed, { PoseGroup } from 'react-pose';
+import { PoseGroup } from 'react-pose';
 import { CSSTransition } from 'react-transition-group';
 import MaysJourney from "./mygames/MaysJourneyGame.js";
 import DefenseHorizon from "./mygames/DefenseHorizonGame.js";
+import NarcolepticNummies from "./mygames/NarcolepticNummiesGame.js";
 import Scoops from "./mygames/ScoopsGame.js";
 import HostageEscapeRoom from "./mygames/HostageEscapeRoomGame.js";
 import MarbleSolitaire from "./mygames/MarbleSolitaireGame.js";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const rowSize = 3;
 
-const games = [{image: '/assets/images/MaysJourneyImage.png', title: "May's Journey", description: "3D Puzzle Programming Game", component: <MaysJourney/>},
+const games = [{image: '/assets/images/DefenseHorizonImage.png', title: "Narcoleptic Nummies", description: "2D Platformer", component: <NarcolepticNummies/>},
+              {image: '/assets/images/MaysJourneyImage.png', title: "May's Journey", description: "3D Puzzle Programming Game", component: <MaysJourney/>},
                {image: '/assets/images/DefenseHorizonImage.png', title: "Defense Horizon", description: "FPS Turret Defense Game", component: <DefenseHorizon/>},
                {image: "/assets/images/ScoopsImage.png", title: "Scoops", description: "Mobile Bubble Popper Word Game", component: <Scoops/>},
                {image: "/assets/images/HostageEscapeRoomImage.png", title: "Hostage Escape Room", description: "First Person Digital Escape Room", component: <HostageEscapeRoom/>},
@@ -26,8 +29,10 @@ function Games() {
             <div className="gameCenter">
               <div className="gameWrapper">
                 <div className="gameText">
-                  <div className="titleGames"><span>Games</span></div>
-                   <GamesGrid games={games} setDrawer={setDrawer}/>
+                <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
+                <div className="titleGames"><span>Games</span></div>
+                </ScrollAnimation>
+                <GamesGrid games={games} setDrawer={setDrawer}/> 
                 </div>
                   <CSSTransition in={!!drawer} timeout={500} classNames="popup" unmountOnExit>
                     <Overlay className={"overlayComponent"} hasBackdrop={false} canOutsideClickClose={true} 
@@ -44,6 +49,12 @@ function Games() {
   );
 }
 
+let scrolledIntoView = false;
+
+function scrolled() {
+  scrolledIntoView = true;
+}
+
 function GamesGrid({games, setDrawer}) {
   const grid = formatGrid(games);
   const [isVisible, setIsVisible] = React.useState(false);
@@ -58,8 +69,9 @@ function GamesGrid({games, setDrawer}) {
                       <div className="gridTile" key={i}>
                           <PoseGroup flipMove={false}>
                               {isVisible && row.map((game, j) => 
-                                <TileContainer i={i * rowSize + j} key={j}>
-                                <Tile game={game} setDrawer={setDrawer} /></TileContainer>)}
+                              <ScrollAnimation key={j} animateIn="fadeInLeft" animateOnce={true} delay={700} duration={0.8}>
+                                <Tile key={j} game={game} setDrawer={setDrawer} />
+                              </ScrollAnimation>)}
                           </PoseGroup>
                       </div>)}
                   </PoseGroup>
@@ -96,23 +108,5 @@ function Tile({game, setDrawer}) {
       </div>
   )
 }
-
-const TileContainer = posed.div({
-  enter: {
-      y: 0,
-      opacity: 1,
-      delay: ({ i }) => {
-          return 300 + (i * 200);
-      },
-      transition: {
-      y: { type: 'spring', stiffness: 1000, damping: 15 },
-      default: { duration: 300 }
-      } 
-  },
-  exit: {
-      y: 20,
-      opacity: 0,
-  },
-});
 
 export default Games;

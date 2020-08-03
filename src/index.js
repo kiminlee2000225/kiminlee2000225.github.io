@@ -101,10 +101,10 @@ anime.timeline({loop: false})
   })
   .add({
     targets: '.ml13 .line1',
-    translateX: [0, document.querySelector('.ml13 .letters4').getBoundingClientRect().width + 543],
+    translateX: [0, document.querySelector('.ml13 .letters4').getBoundingClientRect().width + 545],
     easing: "easeOutExpo",
     duration: 1200,
-    delay: 300
+    delay: 350
   }).add({
     targets: '.ml13 .letter',
     opacity: [0,1],

@@ -19,6 +19,10 @@ class MaysJourneyGame extends Component {
              a game that serves  as an entertainment and an educational tool to support students learn how to code through a fun puzzle 
              game experience. 
             </h3>
+            <h2><a href="https://www.youtube.com/watch?v=sYnDQM-QgV4&feature=emb_logo" style={{textDecoration: 'none', color: "#222626"}}>Trailer</a></h2>
+            <div className="youtubeVideo" >
+                    <iframe className="iFrame" src="https://www.youtube.com/embed/sYnDQM-QgV4" frameBorder="0"/>
+            </div>
             <h2><a href="https://maysjourney.com/index.html" style={{textDecoration: 'none', color: "#222626"}}>Game Link</a></h2>
             <h2>Tools used</h2>
             <h3>Unity, C#, Python, Maximo</h3>
