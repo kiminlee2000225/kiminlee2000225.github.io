@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Home.css'
 import scrollDownImage from './scrollDownImage.jpg';
-import { Link } from "react-scroll";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class Home extends Component {
   render() {
@@ -11,17 +11,13 @@ class Home extends Component {
           <div className="titleAlign">
               <div className="homeCenter">
                   <div className="homeWrapper">
-                  <div className="scrollButton"> 
-                  <Link
-                              to="about" 
-                              spy={true} 
-                              smooth={true} 
-                              duration={500} 
-                              className="aboutLink"
-                              activeClass="active">
-                          </Link>
-                <img className="scrollImage" src={scrollDownImage}></img>
-              </div>
+                    <div className="scrollButton"> 
+                    <ScrollAnimation animateIn="fadeIn" animateOnce={true} delay={5900} offset={60}>
+                      <ScrollAnimation animateIn="bounce" animateOnce={true} delay={5910} offset={60}>
+                        <img className="scrollImage" src={scrollDownImage}/>
+                      </ScrollAnimation>
+                    </ScrollAnimation>
+                    </div>
                     <div className="introText">
                     <h1 class="ml11">
                       <span class="text-wrapper">

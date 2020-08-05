@@ -20,8 +20,8 @@ class LLB extends Component {
             <div className="youtubeVideo" >
               <iframe className="iFrame" src="https://www.youtube.com/embed/wUnngAqSp7g" frameBorder="0"/>
             </div>
-            <h2><a href="https://lucyslovebus.org" style={{textDecoration: 'none', color: "#222626"}}>Lucy's Love Bus</a></h2>
-            <h2><a href="http://lovebusprograms.org/ " style={{textDecoration: 'none', color: "#222626"}}>Created Software</a></h2>
+            <h2><a href="https://lucyslovebus.org" target="_blank" className="projectLink">Lucy's Love Bus</a></h2>
+            <h2><a href="http://lovebusprograms.org/" target="_blank" className="projectLink">Created Software</a></h2>
             <h2>Tools used</h2>
             <h3>Vue, JavaScript, HTML, CSS, Java, JUnit, PostgreSQL, Apache Maven, Travis CI</h3>
             <h2>What I did</h2>

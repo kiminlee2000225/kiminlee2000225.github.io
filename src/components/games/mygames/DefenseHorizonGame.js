@@ -13,13 +13,13 @@ class DefenseHorizonGame extends Component {
          a dignity token of the Northern Kingdom, against the waves of enemy’s attack from the Southern Kingdom through night and day. 
          The player is able to utilize and upgrade bows, bombs, and tower durability in the shop to fend off the Southern army. Demonstrate
           your skills and pride as a loyal soldier of the Northern Kingdom by tactically defending the Horizon Tower for glory!</h3>
-       <h2><a href="https://youtu.be/PGXGQHrS2Fo" style={{textDecoration: 'none', color: "#222626"}}>Trailer</a></h2>
+       <h2><a href="https://youtu.be/PGXGQHrS2Fo" target="_blank" className="gameLink">Trailer</a></h2>
        <div className="youtubeVideo" >
               <iframe className="iFrame" src="https://www.youtube.com/embed/PGXGQHrS2Fo" frameBorder="0"/>
         </div>
-       <h2><a href="https://github.com/kiminlee2000225/Defense-Horizon" style={{textDecoration: 'none', color: "#222626"}}>GitHub</a></h2>
-       <h2><a href="https://developer.cloud.unity3d.com/share/share.html?shareId=WkpFChGqhB" 
-            style={{textDecoration: 'none', color: "#222626"}}>WebGL Game Link - Please set the size to 1920 x 1080</a></h2>
+       <h2><a href="https://github.com/kiminlee2000225/Defense-Horizon" target="_blank" className="gameLink">GitHub</a></h2>
+       <h2><a href="https://developer.cloud.unity3d.com/share/share.html?shareId=WkpFChGqhB" target="_blank"
+            className="gameLink">WebGL Game Link - Please set the size to 1920 x 1080</a></h2>
        <h2>Tools used</h2>
        <h3>Unity, C#, Python, Adobe Illustrator, Adobe Photoshop</h3>
        <h2>About</h2>

@@ -17,12 +17,12 @@ class NarcolepticNummiesGame extends Component {
             <h3>This project was done as a part of Peach Beach Studios. Peach Beach Studios is a small game developing company made up of seven intrepid
                 members. Our mission is to create relaxing but dynamic games with twists on classic tropes. We're based in the heart of Boston and are doing 
                 our best to deliver great gaming content.</h3>
-            <h2><a href="https://www.youtube.com/watch?v=Z2xOnwZBpgk&feature=youtu.be" style={{textDecoration: 'none', color: "#222626"}}>Trailer</a></h2>
+            <h2><a href="https://www.youtube.com/watch?v=Z2xOnwZBpgk&feature=youtu.be" target="_blank" className="gameLink">Trailer</a></h2>
             <div className="youtubeVideo" >
               <iframe className="iFrame" src="https://www.youtube.com/embed/Z2xOnwZBpgk" frameBorder="0"/>
             </div>
-            <h2><a href="https://github.com/levikap/GMTK-GameJam-2020/tree/dev" style={{textDecoration: 'none', color: "#222626"}}>GitHub</a></h2>
-            <h2><a href="https://kimin.itch.io/narcoleptic-nummies" style={{textDecoration: 'none', color: "#222626"}}>itch.io Game Link</a></h2>
+            <h2><a href="https://github.com/levikap/GMTK-GameJam-2020/tree/dev" target="_blank" className="gameLink">GitHub</a></h2>
+            <h2><a href="https://kimin.itch.io/narcoleptic-nummies" target="_blank" className="gameLink">itch.io Game Link</a></h2>
             <h2>Tools used</h2>
             <h3>Unity, C#, itch.io, Notion</h3>
             <h2>What I did</h2>

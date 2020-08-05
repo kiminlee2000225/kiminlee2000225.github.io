@@ -13,7 +13,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 const rowSize = 3;
 
-const games = [{image: '/assets/images/DefenseHorizonImage.png', title: "Narcoleptic Nummies", description: "2D Platformer", component: <NarcolepticNummies/>},
+const games = [{image: '/assets/images/NN.png', title: "Narcoleptic Nummies", description: "2D Platformer", component: <NarcolepticNummies/>},
               {image: '/assets/images/MaysJourneyImage.png', title: "May's Journey", description: "3D Puzzle Programming Game", component: <MaysJourney/>},
                {image: '/assets/images/DefenseHorizonImage.png', title: "Defense Horizon", description: "FPS Turret Defense Game", component: <DefenseHorizon/>},
                {image: "/assets/images/ScoopsImage.png", title: "Scoops", description: "Mobile Bubble Popper Word Game", component: <Scoops/>},
@@ -32,7 +32,9 @@ function Games() {
                 <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
                 <div className="titleGames"><span>Games</span></div>
                 </ScrollAnimation>
-                <GamesGrid games={games} setDrawer={setDrawer}/> 
+                <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} delay={300} duration={1} offset={450}>
+                  <GamesGrid games={games} setDrawer={setDrawer}/>
+                </ScrollAnimation>
                 </div>
                   <CSSTransition in={!!drawer} timeout={500} classNames="popup" unmountOnExit>
                     <Overlay className={"overlayComponent"} hasBackdrop={false} canOutsideClickClose={true} 
@@ -69,9 +71,7 @@ function GamesGrid({games, setDrawer}) {
                       <div className="gridTile" key={i}>
                           <PoseGroup flipMove={false}>
                               {isVisible && row.map((game, j) => 
-                              <ScrollAnimation key={j} animateIn="fadeInLeft" animateOnce={true} delay={700} duration={0.8}>
-                                <Tile key={j} game={game} setDrawer={setDrawer} />
-                              </ScrollAnimation>)}
+                                <Tile key={j} game={game} setDrawer={setDrawer} />)}
                           </PoseGroup>
                       </div>)}
                   </PoseGroup>

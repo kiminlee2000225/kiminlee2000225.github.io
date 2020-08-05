@@ -17,11 +17,11 @@ class LinGO extends Component {
                 group members sharing about how their parents once had to stay on call for several hours while their grandparents
                  were in the hospital seeing a doctor, so that they could act as a translator. We saw this project as something that 
                  could be extremely beneficial for users.</h3>
-            <h2><a href="https://www.youtube.com/watch?v=a8f7xlpFCr0" style={{textDecoration: 'none', color: "#222626"}}>linGO Demo</a></h2>
+            <h2><a href="https://www.youtube.com/watch?v=a8f7xlpFCr0" target="_blank" className="projectLink">linGO Demo</a></h2>
             <div className="youtubeVideo" >
               <iframe className="iFrame" src="https://www.youtube.com/embed/a8f7xlpFCr0" frameBorder="0"/>
             </div>
-            <h2><a href="https://github.com/kiminlee2000225/linGO" style={{textDecoration: 'none', color: "#222626"}}>GitHub</a></h2>
+            <h2><a href="https://github.com/kiminlee2000225/linGO" target="_blank" className="projectLink">GitHub</a></h2>
             <h2>Tools used</h2>
             <h3>Wix, Wix Code, JavaScript, HTML, CSS, Adobe Photoshop, Adobe Illustrator</h3>
             <h2>What I did</h2>

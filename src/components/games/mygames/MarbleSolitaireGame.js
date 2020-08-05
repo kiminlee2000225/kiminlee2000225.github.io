@@ -12,7 +12,7 @@ class MarbleSolitaireGame extends Component {
        <h3>Marble solitaire, also known as peg solitaire, is a board game for one player involving movement of pegs on a board with holes.
           I created a marble solitaire game that supports the standard, triangular, and European shape using the model-view-controller 
           architecture in Java. Java unit tests were used to verify my code. The player is able to specify the shape and size of the solitaire.</h3>
-       <h2><a href="https://github.com/kiminlee2000225/Marble-Solitaire" style={{textDecoration: 'none', color: "#222626"}}>GitHub</a></h2>
+       <h2><a href="https://github.com/kiminlee2000225/Marble-Solitaire" target="_blank" className="gameLink">GitHub</a></h2>
        <h2>Tools used</h2>
        <h3>Java, JUnit</h3>
        <h2>What I did</h2>

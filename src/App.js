@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <div>
         <Navbar/>
-        <SocialBar/>
+        {/* <SocialBar/> */}
         <div className="elements" id="elements">
           <Element name="home">
             <Home/>
@@ -29,9 +29,6 @@ class App extends Component {
           <Element name="games">
             <Games/>
           </Element>
-          {/* <Element name="resume">
-            <Resume/>
-          </Element> */}
           <Element name="contact">
             <Contact/>
           </Element>

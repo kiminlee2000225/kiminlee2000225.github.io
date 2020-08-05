@@ -13,16 +13,16 @@ class HostageEscapeRoomGame extends Component {
               a room that they have no memory of being in. As the player gets further through their puzzle-solving experience, they 
               gain more clues and info as to how they got themselves into this situation in the first place. Hostage Escape Room is a 
               slow-paced mystery-puzzle-style game that challenges your problem solving skills while having a mafia related storyline.</h3>
-            <h2><a href="https://www.youtube.com/watch?v=wHCugdP42j8&feature=youtu.be" style={{textDecoration: 'none', color: "#222626"}}>Trailer</a></h2>
+            <h2><a href="https://www.youtube.com/watch?v=wHCugdP42j8&feature=youtu.be" target="_blank" className="gameLink">Trailer</a></h2>
             <div className="youtubeVideo" >
               <iframe className="iFrame" src="https://www.youtube.com/embed/wHCugdP42j8" frameBorder="0"/>
             </div>
-            <h2><a href="https://www.youtube.com/watch?v=-Hxooc_hbaU&feature=youtu.be" style={{textDecoration: 'none', color: "#222626"}}>Gameplay</a></h2>
+            <h2><a href="https://www.youtube.com/watch?v=-Hxooc_hbaU&feature=youtu.be" target="_blank" className="gameLink">Gameplay</a></h2>
             <div className="youtubeVideo" >
               <iframe className="iFrame" src="https://www.youtube.com/embed/-Hxooc_hbaU" frameBorder="0"/>
             </div>
-            <h2><a href="https://github.com/kiminlee2000225/EscapeRoom" style={{textDecoration: 'none', color: "#222626"}}>GitHub</a></h2>
-            <h2><a href="https://developer.cloud.unity3d.com/webgl/webgl.html?shareId=ZJuxmKgvnB" style={{textDecoration: 'none', color: "#222626"}}>WebGL Game Link</a></h2>
+            <h2><a href="https://github.com/kiminlee2000225/EscapeRoom" target="_blank" className="gameLink">GitHub</a></h2>
+            <h2><a href="https://developer.cloud.unity3d.com/webgl/webgl.html?shareId=ZJuxmKgvnB" target="_blank" className="gameLink">WebGL Game Link</a></h2>
             <h2>Tools used</h2>
             <h3>Unity, C#</h3>
             <h2>What I did</h2>

@@ -22,11 +22,14 @@ class Contact extends Component {
                         <ScrollAnimation animateIn="fadeInDown" offset={-500} animateOnce={true} delay={800} >
                         <div className="searchTime">
                           <h2>Psst! I’m looking for opportunities in between May 2021 - August 2021!</h2>
+                          <div className="resumeLink">
+                          <h2>Check out my <a href="assets/files/resume.pdf" target = "_blank">Resume</a></h2>
+                          </div>
                         </div>
                         </ScrollAnimation>
                         <ScrollAnimation animateIn="fadeInDown" offset={-500} animateOnce={true} delay={800} >
                         <div className="email">
-                          <a href={"mailto:kiminlee2000225@gmail.com"}><button className="emailButton">Email me!</button></a>
+                          <a href={"mailto:kiminlee2000225@gmail.com"} target="_blank"><button className="emailButton">Email me</button></a>
                         </div>
                         </ScrollAnimation>
                       </div>

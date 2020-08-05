@@ -74,6 +74,39 @@
     display: flex;
 }
 
+.highlightedText {
+    font-weight: 900;
+    color: #ffffff
+}
+
+.aboutText h2 > a {
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+.aboutText h2 > a:hover {
+    color: #ffffff;
+}
+
+.aboutText h2 > a::before {
+    content: "";
+    position: absolute;
+    width: 98%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.aboutText h2 > a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
 @media only screen and (max-width: 600px) {
 
 } 

@@ -21,7 +21,7 @@ class Bento extends Component {
             <div className="youtubeVideo" >
               <iframe className="iFrame" src="https://www.youtube.com/embed/wUnngAqSp7g" frameBorder="0"/>
             </div>
-            <h2><a href="https://github.com/kiminlee2000225/bento" style={{textDecoration: 'none', color: "#222626"}}>GitHub</a></h2>
+            <h2><a href="https://github.com/kiminlee2000225/bento" target="_blank" className="projectLink">GitHub</a></h2>
             <h2>Tools used</h2>
             <h3>React, Python, BeautifulSoup, JavaScript, HTML, CSS</h3>
             <h2>What I did</h2>

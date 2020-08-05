@@ -64,7 +64,7 @@ h2 > a {
     position: relative;
     color: #000;
     text-decoration: none;
-  }
+}
   
 h2 > a:hover {
 color: #000;
@@ -88,12 +88,6 @@ visibility: visible;
 transform: scaleX(1);
 }
 
-/* h2 {
-
-    font-weight: normal;
+.projectLink {
+    text-decoration: none;
 }
-
-h3 {
-    
-    font-weight: normal;
-} */

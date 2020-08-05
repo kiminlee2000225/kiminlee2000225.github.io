@@ -95,18 +95,6 @@ function Navbar() {
                     </li>
                     <li>
                         <Link
-                            to="resume" 
-                            spy={true} 
-                            smooth={true} 
-                            duration={500} 
-                            className="resumeLink" 
-                            activeClass="active"
-                            onClick={handleSetActive}>
-                            Resume
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
                             to="contact" 
                             spy={true} 
                             smooth={true} 
@@ -116,6 +104,9 @@ function Navbar() {
                             onClick={handleSetActive}>
                             Contacts
                         </Link>
+                    </li>
+                    <li>
+                        <a href="assets/files/resume.pdf" target = "_blank">Resume</a>
                     </li>
                 </ul>
             </nav>

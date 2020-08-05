@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "./Projects.css"
 import { Overlay } from '@blueprintjs/core'; 
 import { PoseGroup } from 'react-pose';
@@ -17,7 +17,7 @@ const projects = [{image: '/assets/images/bento2.png', title: "Bento", descripti
                   {image: '/assets/images/llb.png', title: "Lucy's Love Bus", description: "Event Management System", component: <LLB/>},
                   {image: '/assets/images/c4c.png', title: "Code 4 Community Website", description: "Northeastern University Club Website", component: <C4CWebsite/>},
                   {image: '/assets/images/lingo.png', title: "LinGO", description: "Live Translator Service", component: <LinGO/>},
-                  {image: '/assets/images/MaysJourneyImage.png', title: "Personal Portfolio Website", description: "This website!", component: <Bento/>}];
+                  {image: '/assets/images/website.png', title: "Personal Portfolio Website", description: "This website!", component: <Bento/>}];
 
 function Projects() {
   const [drawer, setDrawer] = React.useState(null);
@@ -28,10 +28,12 @@ function Projects() {
             <div className="projectsCenter">
               <div className="projectsWrapper">
                 <div className="projectsText">
-                <ScrollAnimation animateIn="fadeInDown" animateOnce={true} delay={1} >
+                <ScrollAnimation animateIn="fadeInDown" animateOnce={true} delay={1}>
                   <div className="titleProjects"><span>Projects</span></div>
                   </ScrollAnimation>
+                  <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} delay={300} duration={1} offset={450}>
                     <ProjectsGrid projects={projects} setDrawer={setDrawer}/>
+                  </ScrollAnimation>
                 </div>
                   <CSSTransition in={!!drawer} timeout={500} classNames="popup" unmountOnExit>
                   <Overlay className="overlayComponent" hasBackdrop={false} canOutsideClickClose={true} 
@@ -62,9 +64,7 @@ function ProjectsGrid({projects, setDrawer}) {
                       <div className="gridTile" key={i}>
                           <PoseGroup flipMove={false}>
                               {isVisible && row.map((project, j) => 
-                                <ScrollAnimation key={j} animateIn="fadeInLeft" animateOnce={true} delay={700} duration={0.8}>
-                                <Tile key={j} project={project} setDrawer={setDrawer} />
-                            </ScrollAnimation>)}
+                                <Tile key={j} project={project} setDrawer={setDrawer} />)}
                           </PoseGroup>
                       </div>)}
                   </PoseGroup>
