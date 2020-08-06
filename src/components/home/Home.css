@@ -14,7 +14,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 10em;
   position: relative;
   font-family: 'Lato', sans-serif;
 }
@@ -218,9 +217,8 @@
 @media only screen and (max-width: 600px) {
   .home {
     width: 100%;
-    min-width: 55em;
+    min-width: 56.5em;
     min-height: 47em;
-    height: calc(var(--vh, 1vh) * 100);
   }
 
 .introText h1 {

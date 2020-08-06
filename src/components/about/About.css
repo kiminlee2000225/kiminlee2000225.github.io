@@ -111,7 +111,7 @@
 @media only screen and (max-width: 600px) {
     .about {
       width: 100%;
-      min-width: 55em;
+      min-width: 56.5em;
       min-height: 47em;
       height: calc(var(--vh, 1vh) * 100);
     }

@@ -11,7 +11,7 @@ import HostageEscapeRoom from "./mygames/HostageEscapeRoomGame.js";
 import MarbleSolitaire from "./mygames/MarbleSolitaireGame.js";
 import ScrollAnimation from 'react-animate-on-scroll';
 
-const rowSize = 3;
+const rowSize = 2;
 
 const games = [{image: '/assets/images/NN.png', title: "Narcoleptic Nummies", description: "2D Platformer", component: <NarcolepticNummies/>},
               {image: '/assets/images/MaysJourneyImage.png', title: "May's Journey", description: "3D Puzzle Programming Game", component: <MaysJourney/>},
@@ -49,12 +49,6 @@ function Games() {
         </div>
       </div>
   );
-}
-
-let scrolledIntoView = false;
-
-function scrolled() {
-  scrolledIntoView = true;
 }
 
 function GamesGrid({games, setDrawer}) {
