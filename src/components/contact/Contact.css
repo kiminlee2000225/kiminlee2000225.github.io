@@ -64,9 +64,6 @@ button {
     padding-top: 5vh;
 }
 
-.emailButton {
-    cursor: pointer;
-}
 
 .titleContacts{
     width: 100%;
@@ -85,7 +82,7 @@ button {
 
 .titleContacts span {
     letter-spacing: 1px;
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .resumeLink h2 > a {
@@ -114,3 +111,43 @@ button {
     visibility: visible;
     transform: scaleX(1);
 }
+
+.email h2 > a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    padding-top: 5vh;
+    color: #d8c6ae;
+}
+
+.email h2 > a:hover {
+    color: #d8c6ae;
+    cursor: pointer
+}
+    
+.email h2 > a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #d8c6ae;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.email h2 > a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+@media only screen and (max-width: 600px) {
+    .contact {
+      width: 100%;
+      min-width: 55em;
+      min-height: 47em;
+      height: calc(var(--vh, 1vh) * 100);
+    }
+  
+  }

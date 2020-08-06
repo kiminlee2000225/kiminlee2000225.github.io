@@ -20,7 +20,7 @@
     width: 100%;
     text-align: left;
     color: #202020;
-    padding-bottom: 3vh;
+    padding-bottom: 3.5vh;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -38,8 +38,9 @@
 }
 
 .titleAbout span {
+    color: #000000;
     letter-spacing: 1px;
-    font-size: 35px;
+    font-size: 43px;
 }
 
 .portrait {
@@ -108,27 +109,33 @@
 }
 
 @media only screen and (max-width: 600px) {
-
-} 
-
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-@media screen and (max-width: 480px) {
-    .portrait {
-        /* height: auto;
-        width: 40vh; */
-        width: 100px;;
-        height: auto;
-        
-    }
-    
     .about {
-        width: 100%;
-        min-height: 47em;
-        height: 100vh;
-        background-color: #f2f2f2;
+      width: 100%;
+      min-width: 55em;
+      min-height: 47em;
+      height: calc(var(--vh, 1vh) * 100);
+    }
+
+    .portrait {
+        width: 210px;
+        height: auto;
+    }
+
+    .titleAbout {
+        padding-bottom: 10px;
     }
     
-}
+    .titleAbout span {
+        letter-spacing: 1px;
+        font-size: 23px;
+    }
+
+    .aboutText h2 {
+        line-height: 12px; 
+        font-size: 12.5px;
+    }
+
+    .imageDiv {
+        padding-left: 3em;
+    }
+  }

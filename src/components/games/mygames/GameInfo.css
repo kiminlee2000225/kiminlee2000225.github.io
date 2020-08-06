@@ -43,8 +43,8 @@
 
 .youtubeVideo {
     position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 25;
+    padding-bottom: 53.25%;
+    padding-top: 10;
     height: 0;
 }
 
@@ -58,4 +58,26 @@
 
 .gameLink {
     text-decoration: none;
+}
+
+.solitaireImage1 {
+    margin: 0 50px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    height: 210px;
+    width: 170px;
+}
+
+.solitaireImage2 {
+    margin: 0 50px;
+    margin-top: 0px;
+    height: 215px;
+    width: 440px;
+}
+
+.imagesContainer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 0;
 }

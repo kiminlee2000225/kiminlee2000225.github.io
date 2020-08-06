@@ -214,3 +214,25 @@
 .ml13 .letter8 {
   color: #fff;
 }
+
+@media only screen and (max-width: 600px) {
+  .home {
+    width: 100%;
+    min-width: 55em;
+    min-height: 47em;
+    height: calc(var(--vh, 1vh) * 100);
+  }
+
+.introText h1 {
+  margin: 0;
+  letter-spacing: 3px;
+  font-size: 30px;
+}
+
+.scrollImage {  
+  position: absolute;  
+  height: 23px;
+  width: 43px;
+}
+
+}

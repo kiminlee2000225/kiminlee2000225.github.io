@@ -106,7 +106,7 @@ function Navbar() {
                         </Link>
                     </li>
                     <li>
-                        <a href="assets/files/resume.pdf" target = "_blank">Resume</a>
+                        <a href="assets/files/Resume.pdf" target = "_blank">Resume</a>
                     </li>
                 </ul>
             </nav>

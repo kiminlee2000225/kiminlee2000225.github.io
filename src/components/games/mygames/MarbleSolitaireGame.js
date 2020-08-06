@@ -12,11 +12,20 @@ class MarbleSolitaireGame extends Component {
        <h3>Marble solitaire, also known as peg solitaire, is a board game for one player involving movement of pegs on a board with holes.
           I created a marble solitaire game that supports the standard, triangular, and European shape using the model-view-controller 
           architecture in Java. Java unit tests were used to verify my code. The player is able to specify the shape and size of the solitaire.</h3>
+        <div className="imagesContainer"> 
+          <img className="solitaireImage1" src="/assets/images/largeMS.png"></img>
+          <img className="solitaireImage1" src="/assets/images/triangularMS.png"></img>
+          <img className="solitaireImage1" src="/assets/images/europeanMS.png"></img>
+        </div>
+        <div className="imagesContainer"> 
+          <img className="solitaireImage2" src="/assets/images/invalidMove1.png"></img>
+          <img className="solitaireImage2" src="/assets/images/invalidMove2.png"></img>
+        </div>
        <h2><a href="https://github.com/kiminlee2000225/Marble-Solitaire" target="_blank" className="gameLink">GitHub</a></h2>
        <h2>Tools used</h2>
        <h3>Java, JUnit</h3>
        <h2>What I did</h2>
-       <h3>I created a digital marble solitaire game using only Java. The player is able to the pegs with row and column inputs, and the
+       <h3>I created a digital marble solitaire game using only Java. The player is able to move the pegs by inputting row and column positions, and the
           visualization will be updated depending on each move. If the move is not allowed, it will throw an error message to the player. 
           Additionally, the state of the game is stated if the game is over. I utilized a model-view-controller architecture as new features
            were eventually added, such as the support for multiple shapes. Each shape has its own model, and they are tied to one controller.

@@ -32,8 +32,9 @@
 }
 
 .titleGames span {
+    color: #000000;
     letter-spacing: 1px;
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .gameWrapper {
@@ -159,3 +160,13 @@
     text-decoration: none;
     color: #3c4046;
 }
+
+@media only screen and (max-width: 600px) {
+    .games {
+      width: 100%;
+      min-width: 55em;
+      min-height: 47em;
+      height: calc(var(--vh, 1vh) * 100);
+    }
+  
+  }

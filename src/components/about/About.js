@@ -12,7 +12,7 @@ class About extends Component {
               <div className="aboutCenter">
                 <div className="aboutWrapper">
                   <div className="aboutText">
-                  <ScrollAnimation animateIn="fadeInDown" animateOnce={true} delay={1} offset={450}>
+                  <ScrollAnimation animateIn="fadeInDown" animateOnce={true} delay={1}>
                     <div className="titleAbout"><span>About</span></div>
                   </ScrollAnimation>
                      <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} delay={700} offset={250}>

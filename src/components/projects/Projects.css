@@ -33,7 +33,7 @@
 
 .titleProjects span {
     letter-spacing: 1px;
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .projectsWrapper {
@@ -57,3 +57,13 @@
     cursor: pointer;
     background: #edeef1;
 }
+
+@media only screen and (max-width: 600px) {
+    .projects {
+      width: 100%;
+      min-width: 55em;
+      min-height: 47em;
+      height: calc(var(--vh, 1vh) * 100);
+    }
+  
+  }
