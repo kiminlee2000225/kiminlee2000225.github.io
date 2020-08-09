@@ -214,23 +214,40 @@
   color: #fff;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 812px) {
   .home {
     width: 100%;
-    min-width: 56.5em;
-    min-height: 47em;
+    min-width: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
   }
 
-.introText h1 {
-  margin: 0;
-  letter-spacing: 3px;
-  font-size: 30px;
-}
+  .introText h1 {
+    margin: 0;
+    letter-spacing: 3px;
+    font-size: 20px;
+    width: 80%;
+  }
 
-.scrollImage {  
-  position: absolute;  
-  height: 23px;
-  width: 43px;
-}
+  .letters {
+    font-size: 20px;
+  }
+
+  .letters3{
+    letter-spacing: 1px;
+    font-size: 60px;
+  }
+  
+  .letters2{
+    letter-spacing: 1px;
+    font-size: 60px;
+  }
+
+  .scrollImage {  
+    position: absolute;  
+    height: 23px;
+    width: 43px;
+  }
+
 
 }

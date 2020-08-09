@@ -161,10 +161,10 @@
     color: #3c4046;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 812px) {
     .games {
       width: 100%;
-      min-width: 56.5em;
+      min-width: 0;
       min-height: 47em;
       height: calc(var(--vh, 1vh) * 100);
     }
