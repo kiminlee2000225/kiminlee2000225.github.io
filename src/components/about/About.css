@@ -117,7 +117,7 @@
     }
 
     .portrait {
-        width: 210px;
+        width: 150px;
         height: auto;
     }
 
@@ -136,6 +136,6 @@
     }
 
     .imageDiv {
-        padding-left: 3em;
+        padding-left: 2em;
     }
   }

@@ -11,7 +11,7 @@ import HostageEscapeRoom from "./mygames/HostageEscapeRoomGame.js";
 import MarbleSolitaire from "./mygames/MarbleSolitaireGame.js";
 import ScrollAnimation from 'react-animate-on-scroll';
 
-const rowSize = 2;
+const rowSize = 1;
 
 const games = [{image: '/assets/images/NN.png', title: "Narcoleptic Nummies", description: "2D Platformer", component: <NarcolepticNummies/>},
               {image: '/assets/images/MaysJourneyImage.png', title: "May's Journey", description: "3D Puzzle Programming Game", component: <MaysJourney/>},
