@@ -19,27 +19,27 @@ class Home extends Component {
                     </ScrollAnimation>
                     </div>
                     <div className="introText">
-                    <h1 class="ml11">
-                      <span class="text-wrapper">
-                        <span class="line line1"></span>
-                        <span class="letters">Hi  I'm</span>
+                    <h1 className="ml11">
+                      <span className="text-wrapper">
+                        <span className="line line1"></span>
+                        <span className="letters">Hi  I'm</span>
                       </span>
                     </h1>
-                    <h1 class="ml12">
-                      <span class="text-wrapper">
-                        <span class="line_1 line1"></span>
-                        <span class="letters3">Kimin</span>
-                        <span class="letters2"> Lee.</span>
+                    <h1 className="ml12">
+                      <span className="text-wrapper">
+                        <span className="line_1 line1"></span>
+                        <span className="letters3">Kimin</span>
+                        <span className="letters2"> Lee.</span>
                       </span>
                     </h1>
-                    <h1 class="ml13">
-                      <span class="text-wrapper">
-                        <span class="line_2 line1"></span>
-                        <span class="letters4">I develop</span>
-                        <span class="letters5"> Software</span>
-                        <span class="letters6"> and</span>
-                        <span class="letters7"> Games</span>
-                        <span class="letters8">.</span>
+                    <h1 className="ml13">
+                      <span className="text-wrapper">
+                        <span className="line_2 line1"></span>
+                        <span className="letters4">I develop</span>
+                        <span className="letters5"> Software</span>
+                        <span className="letters6"> and</span>
+                        <span className="letters7"> Games</span>
+                        <span className="letters8">.</span>
                       </span>
                     </h1>
                     </div>

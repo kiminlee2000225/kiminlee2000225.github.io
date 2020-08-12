@@ -142,7 +142,7 @@ button {
     transform: scaleX(1);
 }
 
-@media only screen and (max-width: 812px) {
+@media only screen and (min-width: 667px) and (max-width: 812px) {
     .contact {
         min-width: 0;
         height: 100vh;
@@ -181,4 +181,44 @@ button {
         padding-top: 2vh;
     }
     
+  }
+
+  @media only screen and (max-width: 736px) {
+    .contact {
+        min-width: 0;
+        height: 100vh;
+        min-height: 40em;
+    }
+
+    .titleContacts span {
+        font-size: 28px;
+    }
+
+    .email {
+        font-size: 20px;
+        padding: 8px 120px;
+    }
+
+    .email h2 > a {
+        font-size: 17px;
+        padding-top: 5vh;
+        left: -23px
+    }
+
+    .email h2 {
+        margin: 0 30px;
+        width: 85%;
+    }
+
+    .contactText h1 {
+        font-size: 17px;
+    }
+    
+    .contactText h2 {
+        font-size: 17px;
+    }
+    
+    .searchTime {
+        padding-top: 2vh;
+    }
   }
