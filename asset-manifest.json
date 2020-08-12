@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.39e355f4.chunk.css",
+    "main.css": "/static/css/main.a708dc75.chunk.css",
     "main.js": "/static/js/main.d0d56d8d.chunk.js",
     "main.js.map": "/static/js/main.d0d56d8d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d5e1d03d.js",
@@ -8,9 +8,9 @@
     "static/js/2.3ae7ec57.chunk.js": "/static/js/2.3ae7ec57.chunk.js",
     "static/js/2.3ae7ec57.chunk.js.map": "/static/js/2.3ae7ec57.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.747a05174f72a78b779c094b73cc398d.js": "/precache-manifest.747a05174f72a78b779c094b73cc398d.js",
+    "precache-manifest.fc7f4e6a530e779161f39e06dcbc44dd.js": "/precache-manifest.fc7f4e6a530e779161f39e06dcbc44dd.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.39e355f4.chunk.css.map": "/static/css/main.39e355f4.chunk.css.map",
+    "static/css/main.a708dc75.chunk.css.map": "/static/css/main.a708dc75.chunk.css.map",
     "static/media/githubLogo.png": "/static/media/githubLogo.351a58c6.png",
     "static/media/linkedinLogo.png": "/static/media/linkedinLogo.1a0a7bc3.png",
     "static/media/portrait.jpg": "/static/media/portrait.68d1c8ff.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.d5e1d03d.js",
     "static/js/2.3ae7ec57.chunk.js",
-    "static/css/main.39e355f4.chunk.css",
+    "static/css/main.a708dc75.chunk.css",
     "static/js/main.d0d56d8d.chunk.js"
   ]
 }
