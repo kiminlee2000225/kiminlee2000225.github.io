@@ -108,7 +108,7 @@
     transform: scaleX(1);
 }
 
-@media only screen and (max-width: 812px) {
+@media only screen and  (min-width: 667px) and  (max-width: 812px) {
     .about {
         min-width: 0;
         height: 100vh;
@@ -154,6 +154,49 @@
 }
 
 @media only screen and (max-width: 667px) {
+    .about {
+        min-width: 0;
+        height: 100vh;
+        min-height: 40em;
+    }
+
+    .portrait {
+        padding: 8px 40px;
+        padding-top: 15px;
+        width: 180px;
+    }
+
+    .titleAbout {
+        padding-bottom: 3px;
+    }
+    
+    .titleAbout span {
+        letter-spacing: 1px;
+        font-size: 24px;
+    }
+
+    .aboutText h2 {
+        line-height: 15px; 
+        font-size: 12.5px;
+    }
+
+    .aboutText {
+        display: block;
+        float: center;
+        padding-top: 1vh;
+        font-size: 13px;
+        width: 100%;
+    }
+
+    .imageDiv {
+        padding-left: 0;
+    }
+
+    .aboutWrapper {
+        display: inline;
+    }
+
+    
     .aboutText h2 {
         line-height: 15px; 
         font-size: 11.5px;
@@ -162,7 +205,7 @@
     .portrait {
         padding: 8px 60px;
         padding-top: 15px;
-        width: 200px;
+        width: 210px;
         height: auto;
     }
 
@@ -185,6 +228,68 @@ and (-webkit-min-device-pixel-ratio: 3) {
     .aboutText h2 {
         line-height: 15px; 
         font-size: 12.5px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) { 
+    .about {
+        min-width: 0;
+        height: 100vh;
+        min-height: 40em;
+    }
+
+    .portrait {
+        padding: 8px 40px;
+        padding-top: 15px;
+        width: 180px;
+    }
+
+    .titleAbout {
+        padding-bottom: 3px;
+    }
+    
+    .titleAbout span {
+        letter-spacing: 1px;
+        font-size: 24px;
+    }
+
+    .aboutText h2 {
+        line-height: 15px; 
+        font-size: 12.5px;
+    }
+
+    .aboutText {
+        display: block;
+        float: center;
+        padding-top: 1vh;
+        font-size: 13px;
+        width: 100%;
+    }
+
+    .imageDiv {
+        padding-left: 0;
+    }
+
+    .aboutWrapper {
+        display: inline;
+    }
+
+    
+    .aboutText h2 {
+        line-height: 15px; 
+        font-size: 11.5px;
+    }
+
+    .titleAbout {
+        padding-bottom: 0px;
+    }
+    .portrait {
+        padding: 8px 55px;
+        padding-top: 15px;
+        width: 200px;
+        height: auto;
     }
 }
 
