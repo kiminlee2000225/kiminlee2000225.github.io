@@ -7,7 +7,6 @@ class DefenseHorizonGame extends Component {
       <div className="gameContext">
       <div className="gameInfoWrapper">
        <div className="gameTitle">Defense Horizon</div>
-       <img className="gameImage"/>
        <h2>What is Defense Horizon?</h2>
        <h3>	Defense Horizon is an FPS game with the twist of a tower defense game mechanic. The player must protect The Horizon Tower, 
          a dignity token of the Northern Kingdom, against the waves of enemy’s attack from the Southern Kingdom through night and day. 
@@ -15,7 +14,7 @@ class DefenseHorizonGame extends Component {
           your skills and pride as a loyal soldier of the Northern Kingdom by tactically defending the Horizon Tower for glory!</h3>
        <h2><a href="https://youtu.be/PGXGQHrS2Fo" rel="noopener noreferrer" target="_blank" className="gameLink">Trailer</a></h2>
        <div className="youtubeVideo" >
-              <iframe className="iFrame" src="https://www.youtube.com/embed/PGXGQHrS2Fo" frameBorder="0"/>
+              <iframe className="iFrame" title="Defense Horizon Trailer Video" src="https://www.youtube.com/embed/PGXGQHrS2Fo" frameBorder="0"/>
         </div>
        <h2><a href="https://github.com/kiminlee2000225/Defense-Horizon" rel="noopener noreferrer" target="_blank" className="gameLink">GitHub</a></h2>
        <h2><a href="https://developer.cloud.unity3d.com/share/share.html?shareId=WkpFChGqhB" rel="noopener noreferrer" target="_blank"

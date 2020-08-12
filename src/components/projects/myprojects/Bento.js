@@ -7,19 +7,18 @@ class Bento extends Component {
           <div className="projectContext">
            <div className="projectInfoWrapper">
             <div className="projectTitle">Bento</div>
-            <img className="projectImage" alt="Bento"/>
             <h2>What is Bento?</h2>
-            <h3>Have you ever opened your fridge, just to close it and to have the cycle repeat 2 minutes later? It's a real problem. 
-                You find yourself a week later having to mass clean out your fridge. We've ALL been there. My teammates and I thought 
+            <h3>Have you ever opened your fridge, just to close it and repeat the cycle 2 minutes later? This is a real problem. 
+                You find yourself a week later mass cleaning out your fridge. We've ALL been there. My teammates and I thought 
                 that it would be great if there were a way to proactively keep track of the things in our fridge while having the 
                 freedom to explore new recipes.</h3>
             <h3>Bento allows you to search through a database of recipes... the catch is, you search by the ingredients available to
                  you, instead of the name of the recipe. This functionality allows for more exploration in the kitchen and less food
                   waste. Instead of looking up a recipe to buy the necessary ingredients (which always results in leftovers btw), 
-                  Bento challenges that tradition by forcing you to find recipes by the ingredients you already have in your home. 
+                  Bento challenges that tradition by forcing you to find recipes according to the ingredients you already have at home. 
                   Clean up your fridge and enjoy a delicious meal in one!</h3>
             <div className="youtubeVideo" >
-              <iframe className="iFrame" src="https://www.youtube.com/embed/wUnngAqSp7g" frameBorder="0"/>
+              <iframe className="iFrame" title="Bento Demo Video" src="https://www.youtube.com/embed/wUnngAqSp7g" frameBorder="0"/>
             </div>
             <h2><a href="https://github.com/kiminlee2000225/bento" rel="noopener noreferrer" target="_blank" className="projectLink">GitHub</a></h2>
             <h2>Tools used</h2>
@@ -33,7 +32,7 @@ class Bento extends Component {
                 attempting to make the website aesthetically pleasing and easy to browse. I utilized various tools such as Blueprint and Pose 
                 to apply smooth animations to Bento. </h3>
             <h3>I am extremely proud that in the short amount of time that we had, our team was able to build an aesthetically pleasing, functional 
-                website-a minimal viable product to say the least. In the complications that we ran into, we found ways to "hack" them, and we 
+                website - a viable product to say the least. For the complications that we ran into, we found ways to "hack" them, and 
                 continued strong throughout our entire process. We are also very proud of our team. Since the beginning, we were able to effectively
                  brainstorm and divvy up the work so that all of us were working on something.</h3>
             <h2>Challenges / Improvements</h2>
@@ -42,13 +41,12 @@ class Bento extends Component {
                  and back end, on different screens/languages/APIs.</h3>
             <h3>As our team had initially planned to use tinyDB, we found that it did not support sophisticated search queries, making certain 
                 implementations difficult for us to handle. We had to create a special lambda function to satisfy our needs in defining the 
-                specifications for searching through and receiving results. Because we also were working with a relatively big data set, tinyDB did
+                specifications for searching through and receiving results. Because we were also working with a relatively big data set, tinyDB did
                  give us a few problems in the speed department.</h3>
-            <h3 className="lastParagraph">We do believe that there is a lot of hope for Bento in the near future. We have so many ideas on how to first 
-            of all, improve our current product by refining the search qualities, adding more information into our dataset, making the user experience 
+            <h3 className="lastParagraph">We do believe that there is a lot of hope for Bento in the near future. We have so many ideas on how to improve our current product by refining the search qualities, adding more information into our dataset, making the user experience 
             speedier and more seamless. Aside from that, we also see Bento growing with future technologies to come. We are thinking of optimizations so 
             that Bento could potentially track the hierarchy of importance amongst ingredients in the user's fridge-the closeness to expiration being the 
-            determinant of importance.</h3>
+            determining factor.</h3>
             </div>
           </div>
     )

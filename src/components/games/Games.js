@@ -19,7 +19,6 @@ if(mq.matches) {
   rowSize = 3;
 }
 
-
 const games = [{image: '/assets/images/NN.png', title: "Narcoleptic Nummies", description: "2D Platformer", component: <NarcolepticNummies/>},
               {image: '/assets/images/MaysJourneyImage.png', title: "May's Journey", description: "3D Puzzle Programming Game", component: <MaysJourney/>},
                {image: '/assets/images/DefenseHorizonImage.png', title: "Defense Horizon", description: "FPS Turret Defense Game", component: <DefenseHorizon/>},
@@ -102,7 +101,7 @@ function Tile({game, setDrawer}) {
   return(
       <div className="tile">
         <div className="tileInner" onClick={() => setDrawer(game)}>
-            <img className="tileImage" alt="game image" src={game.image}/>
+            <img className="tileImage" src={game.image} alt="game"/>
             <div className="tileTitle">{game.title}</div>
             <div className="tileDescription">{game.description}</div>
         </div>

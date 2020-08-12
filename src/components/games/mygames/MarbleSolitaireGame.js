@@ -7,7 +7,6 @@ class MarbleSolitaireGame extends Component {
       <div className="gameContext">
       <div className="gameInfoWrapper">
        <div className="gameTitle">Marble Solitaire</div>
-       <img className="gameImage" alt="Marble Solitaire"/>
        <h2>What is Marble Solitaire?</h2>
        <h3>Marble solitaire, also known as peg solitaire, is a board game for one player involving movement of pegs on a board with holes.
           I created a marble solitaire game that supports the standard, triangular, and European shape using the model-view-controller 

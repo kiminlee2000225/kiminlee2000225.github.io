@@ -7,7 +7,6 @@ class LinGO extends Component {
           <div className="projectContext">
            <div className="projectInfoWrapper">
             <div className="projectTitle">LinGO</div>
-            <img className="projectImage" alt="LinGO"/>
             <h2>What is LinGO?</h2>
             <h3>LinGO is an on-demand translator service, connecting live translators with people who require translations in high 
                 stake environments such as the doctor’s appointment. Services like Google Translate help us a lot in our basic 
@@ -19,7 +18,7 @@ class LinGO extends Component {
                  could be extremely beneficial for users.</h3>
             <h2><a href="https://www.youtube.com/watch?v=a8f7xlpFCr0" rel="noopener noreferrer" target="_blank" className="projectLink">linGO Demo</a></h2>
             <div className="youtubeVideo" >
-              <iframe className="iFrame" src="https://www.youtube.com/embed/a8f7xlpFCr0" frameBorder="0"/>
+              <iframe className="iFrame" title="LinGO Demo Video" src="https://www.youtube.com/embed/a8f7xlpFCr0" frameBorder="0"/>
             </div>
             <h2><a href="https://github.com/kiminlee2000225/linGO" rel="noopener noreferrer" target="_blank" className="projectLink">GitHub</a></h2>
             <h2>Tools used</h2>

@@ -7,7 +7,6 @@ class NarcolepticNummiesGame extends Component {
           <div className="gameContext">
            <div className="gameInfoWrapper">
             <div className="gameTitle">Narcoleptic Nummies</div>
-            <img className="gameImage" alt="Narcoleptic Nummies"/>
             <h2>What is Narcoleptic Nummies?</h2>
             <h3>	Narcoleptic Nummies is a 2D platformer puzzle game that reflects the uncontrollable sleep schedule that a person with a narcoleptic
                disorder experiences. This game was created within 48 hours for the 2020 GMTK Game Jam. The theme was "out of control." The world can 
@@ -19,7 +18,7 @@ class NarcolepticNummiesGame extends Component {
                 our best to deliver great gaming content.</h3>
             <h2><a href="https://www.youtube.com/watch?v=Z2xOnwZBpgk&feature=youtu.be" rel="noopener noreferrer" target="_blank" className="gameLink">Trailer</a></h2>
             <div className="youtubeVideo" >
-              <iframe className="iFrame" src="https://www.youtube.com/embed/Z2xOnwZBpgk" frameBorder="0"/>
+              <iframe className="iFrame" title="Narcoleptic Nummies Trailer Video"  src="https://www.youtube.com/embed/Z2xOnwZBpgk" frameBorder="0"/>
             </div>
             <h2><a href="https://github.com/levikap/GMTK-GameJam-2020/tree/dev" rel="noopener noreferrer" target="_blank" className="gameLink">GitHub</a></h2>
             <h2><a href="https://kimin.itch.io/narcoleptic-nummies" rel="noopener noreferrer" target="_blank" className="gameLink">itch.io Game Link</a></h2>

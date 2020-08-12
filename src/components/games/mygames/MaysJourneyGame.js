@@ -7,7 +7,6 @@ class MaysJourneyGame extends Component {
           <div className="gameContext">
            <div className="gameInfoWrapper">
             <div className="gameTitle">May's Journey</div>
-            <img className="gameImage" alt="Mays Journey"/>
             <h2>What is May's Journey?</h2>
             <h3>May’s Journey is a 3D educational puzzle game that teaches the basics of computer science through puzzle solving 
               and storytelling. The hero, a girl named May, finds herself trapped in a broken game world. There is only one way 
@@ -21,7 +20,7 @@ class MaysJourneyGame extends Component {
             </h3>
             <h2><a href="https://www.youtube.com/watch?v=sYnDQM-QgV4&feature=emb_logo" rel="noopener noreferrer" target="_blank" className="gameLink">Trailer</a></h2>
             <div className="youtubeVideo" >
-                    <iframe className="iFrame" src="https://www.youtube.com/embed/sYnDQM-QgV4" frameBorder="0"/>
+                    <iframe className="iFrame" title="May's Journey Trailer Video" src="https://www.youtube.com/embed/sYnDQM-QgV4" frameBorder="0"/>
             </div>
             <h2><a href="https://maysjourney.com/index.html" rel="noopener noreferrer" target="_blank" className="gameLink">Game Link</a></h2>
             <h2>Tools used</h2>

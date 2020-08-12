@@ -7,7 +7,6 @@ class C4CWebsite extends Component {
           <div className="projectContext">
            <div className="projectInfoWrapper">
             <div className="projectTitle">Code 4 Community Website</div>
-            <img className="projectImage" alt="C4C Website"/>
             <h2>What is Code 4 Community?</h2>
             <h3> Code 4 Community (C4C) is a student organization at Northeastern University focused on developing and maintaining software solutions
                  for non-profit organizations within Boston. I am a testing and security member at C4C. </h3>
@@ -15,7 +14,7 @@ class C4CWebsite extends Component {
                  C4C does, information on core members, and events hosted by C4C (in the past/future).</h3>
             <h2><a href="https://www.youtube.com/watch?v=NYqBBvkUqBk" rel="noopener noreferrer" target="_blank" className="projectLink">Demo</a></h2>
             <div className="youtubeVideo" >
-              <iframe className="iFrame" src="https://www.youtube.com/embed/NYqBBvkUqBk" frameBorder="0"/>
+              <iframe className="iFrame" title="C4C Website Demo Video" src="https://www.youtube.com/embed/NYqBBvkUqBk" frameBorder="0"/>
             </div>
             <h2><a href="https://linktr.ee/c4cneu" rel="noopener noreferrer" target="_blank" className="projectLink">C4C linktree</a></h2>
             <h2><a href="https://www.c4cneu.com" rel="noopener noreferrer" target="_blank" className="projectLink">C4C Website Link</a></h2>

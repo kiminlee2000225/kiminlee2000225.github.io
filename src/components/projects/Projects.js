@@ -100,7 +100,7 @@ function Tile({project, setDrawer}) {
   return(
       <div className="tile">
         <div className="tileInnerProject" onClick={() => setDrawer(project)}>
-            <img className="tileImage" alt="project image" src={project.image}/>
+            <img className="tileImage" src={project.image} alt="project"/>
             <div className="tileTitle">{project.title}</div>
             <div className="tileDescription">{project.description}</div>
         </div>

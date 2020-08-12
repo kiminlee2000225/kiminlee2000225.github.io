@@ -7,7 +7,6 @@ class LLB extends Component {
           <div className="projectContext">
            <div className="projectInfoWrapper">
             <div className="projectTitle">Lucy's Love Bus</div>
-            <img className="projectImage" alt="Lucy's Love Bus"/>
             <h2>What is Lucy's Love Bus?</h2>
             <h3>Lucy’s Love Bus (LLB) improves quality of life for children with cancer or other life-threatening illnesses with 
                 integrative therapies like massage, meditation, acupuncture, music therapy, and therapeutic horseback riding. 
@@ -18,7 +17,7 @@ class LLB extends Component {
             <h3>Code 4 Community (C4C) created the event planning and ticket purchasing system for all the events hosted by 
                 Lucy's Love Bus for the children and their families.</h3>
             <div className="youtubeVideo" >
-              <iframe className="iFrame" src="https://www.youtube.com/embed/wUnngAqSp7g" frameBorder="0"/>
+              <iframe className="iFrame" title="Lucy's Love Bus Demo" src="https://www.youtube.com/embed/wUnngAqSp7g" frameBorder="0"/>
             </div>
             <h2><a href="https://lucyslovebus.org" rel="noopener noreferrer" target="_blank" className="projectLink">Lucy's Love Bus</a></h2>
             <h2><a href="http://lovebusprograms.org/" rel="noopener noreferrer" target="_blank" className="projectLink">Created Software</a></h2>

@@ -13,7 +13,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 serviceWorker.unregister();
 
 var textWrapper = document.querySelector('.ml11 .letters');
-textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w|\.|\')/g, "<span class='letter'>$&</span>");
+textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w|\.|')/g, "<span class='letter'>$&</span>");
 
 anime.timeline({loop: false})
   .add({
@@ -43,8 +43,8 @@ anime.timeline({loop: false})
     delay: 100
   });
 
-var textWrapper = document.querySelector('.ml12 .letters3');
-textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w|\.|\')/g, "<span class='letter'>$&</span>");
+var textWrapper1 = document.querySelector('.ml12 .letters3');
+textWrapper1.innerHTML = textWrapper1.textContent.replace(/([^\x00-\x80]|\w|\.|')/g, "<span class='letter'>$&</span>");
 
 anime.timeline({loop: false})
   .add({
@@ -76,8 +76,8 @@ anime.timeline({loop: false})
     delay: 20
   }, '+=300');
 
-var textWrapper = document.querySelector('.ml12 .letters2');
-textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w|\.|\')/g, "<span class='letter2'>$&</span>");
+var textWrapper2 = document.querySelector('.ml12 .letters2');
+textWrapper2.innerHTML = textWrapper2.textContent.replace(/([^\x00-\x80]|\w|\.|')/g, "<span class='letter2'>$&</span>");
 
   anime.timeline({loop: false})
   .add({
@@ -88,8 +88,8 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w|\.|\')
     delay: (el, i) => 33 * (i + 1)
   }, '+=2655');
 
-var textWrapper = document.querySelector('.ml13 .letters4');
-textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w|\.|\')/g, "<span class='letter'>$&</span>");
+var textWrapper3 = document.querySelector('.ml13 .letters4');
+textWrapper3.innerHTML = textWrapper3.textContent.replace(/([^\x00-\x80]|\w|\.|')/g, "<span class='letter'>$&</span>");
 
 anime.timeline({loop: false})
   .add({
@@ -124,8 +124,8 @@ anime.timeline({loop: false})
     delay: 200
   }, '+=300');
 
-var textWrapper = document.querySelector('.ml13 .letters5');
-textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w|\.|\')/g, "<span class='letter5'>$&</span>");
+var textWrapper4 = document.querySelector('.ml13 .letters5');
+textWrapper4.innerHTML = textWrapper4.textContent.replace(/([^\x00-\x80]|\w|\.|')/g, "<span class='letter5'>$&</span>");
 
   anime.timeline({loop: false})
   .add({
@@ -136,8 +136,8 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w|\.|\')
     delay: (el, i) => 17 * (i + 1)
   }, '+=4465');
 
-var textWrapper = document.querySelector('.ml13 .letters6');
-textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w|\.|\')/g, "<span class='letter6'>$&</span>");
+var textWrapper5 = document.querySelector('.ml13 .letters6');
+textWrapper5.innerHTML = textWrapper5.textContent.replace(/([^\x00-\x80]|\w|\.|')/g, "<span class='letter6'>$&</span>");
 
   anime.timeline({loop: false})
   .add({
@@ -148,8 +148,8 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w|\.|\')
     delay: (el, i) => 18 * (i + 1)
   }, '+=4620');
 
-var textWrapper = document.querySelector('.ml13 .letters7');
-textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w|\.|\')/g, "<span class='letter7'>$&</span>");
+var textWrapper6 = document.querySelector('.ml13 .letters7');
+textWrapper6.innerHTML = textWrapper6.textContent.replace(/([^\x00-\x80]|\w|\.|')/g, "<span class='letter7'>$&</span>");
 
 anime.timeline({loop: false})
 .add({
@@ -160,8 +160,8 @@ anime.timeline({loop: false})
     delay: (el, i) => 20 * (i + 1)
 }, '+=4675');
 
-var textWrapper = document.querySelector('.ml13 .letters8');
-textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w|\.|\')/g, "<span class='letter8'>$&</span>");
+var textWrapper7 = document.querySelector('.ml13 .letters8');
+textWrapper7.innerHTML = textWrapper7.textContent.replace(/([^\x00-\x80]|\w|\.|')/g, "<span class='letter8'>$&</span>");
 
 anime.timeline({loop: false})
 .add({

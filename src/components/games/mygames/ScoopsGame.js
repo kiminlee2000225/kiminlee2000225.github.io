@@ -7,7 +7,6 @@ class ScoopsGame extends Component {
           <div className="gameContext">
            <div className="gameInfoWrapper">
             <div className="gameTitle">Scoops</div>
-            <img className="gameImage" alt="Scoops"/>
             <h2>What is Scoops?</h2>
             <h3>Scoops is a 2D puzzle bubble shooter game word game with an ice cream theme. The player must form words with the letter
                bubbles he/she/they shoot, to gain points based on a similar point-system to Scrabble. </h3>
@@ -18,7 +17,7 @@ class ScoopsGame extends Component {
                in the heart of Boston and are doing our best to deliver great gaming content.</h3>
             <h2><a href="https://www.youtube.com/watch?v=YpIuLUxFhlg" rel="noopener noreferrer" target="_blank" className="gameLink">Gameplay</a></h2>
             <div className="youtubeVideo" >
-              <iframe className="iFrame" src="https://www.youtube.com/embed/YpIuLUxFhlg" frameBorder="0"/>
+              <iframe className="iFrame" title="Scoops Gameplay Video" src="https://www.youtube.com/embed/YpIuLUxFhlg" frameBorder="0"/>
             </div>
             <h2><a href="https://github.com/kiminlee2000225/Scoops" rel="noopener noreferrer" target="_blank" className="gameLink">GitHub</a></h2>
             <h2>Tools used</h2>

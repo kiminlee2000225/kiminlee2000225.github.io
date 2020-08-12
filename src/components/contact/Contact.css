@@ -148,5 +148,37 @@ button {
         height: 100vh;
         min-height: 40em;
     }
-  
+
+    .titleContacts span {
+        font-size: 28px;
+    }
+
+    .email {
+        font-size: 20px;
+        padding: 8px 120px;
+    }
+
+    .email h2 > a {
+        font-size: 17px;
+        padding-top: 5vh;
+        left: -13px
+    }
+
+    .email h2 {
+        margin: 0 30px;
+        width: 75%;
+    }
+
+    .contactText h1 {
+        font-size: 17px;
+    }
+    
+    .contactText h2 {
+        font-size: 17px;
+    }
+    
+    .searchTime {
+        padding-top: 2vh;
+    }
+    
   }
