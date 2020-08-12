@@ -110,32 +110,93 @@
 
 @media only screen and (max-width: 812px) {
     .about {
-      width: 100%;
-      min-width: 0;
-      min-height: 47em;
-      height: calc(var(--vh, 1vh) * 100);
+        min-width: 0;
+        height: 100vh;
+        min-height: 40em;
     }
 
     .portrait {
-        width: 150px;
-        height: auto;
+        padding: 8px 40px;
+        padding-top: 15px;
+        width: 180px;
     }
 
     .titleAbout {
-        padding-bottom: 10px;
+        padding-bottom: 3px;
     }
     
     .titleAbout span {
         letter-spacing: 1px;
-        font-size: 23px;
+        font-size: 24px;
     }
 
     .aboutText h2 {
-        line-height: 12px; 
+        line-height: 15px; 
         font-size: 12.5px;
     }
 
-    .imageDiv {
-        padding-left: 2em;
+    .aboutText {
+        display: block;
+        float: center;
+        padding-top: 1vh;
+        font-size: 13px;
+        width: 100%;
     }
-  }
+
+    .imageDiv {
+        padding-left: 0;
+    }
+
+    .aboutWrapper {
+        display: inline;
+    }
+
+}
+
+@media only screen and (max-width: 667px) {
+    .aboutText h2 {
+        line-height: 15px; 
+        font-size: 11.5px;
+    }
+
+    .portrait {
+        padding: 8px 60px;
+        padding-top: 15px;
+        width: 200px;
+        height: auto;
+    }
+
+    .titleAbout {
+        padding-bottom: 0px;
+    }
+}
+
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+    .portrait {
+        padding: 8px 60px;
+        padding-top: 15px;
+        width: 240px;
+        height: auto;
+    }
+
+    .aboutText h2 {
+        line-height: 15px; 
+        font-size: 12.5px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    .portrait {
+        padding: 8px 45px;
+        padding-top: 15px;
+        width: 240px;
+        height: auto;
+    }
+}

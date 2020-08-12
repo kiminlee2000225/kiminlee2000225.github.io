@@ -7,7 +7,7 @@ class SFFTB extends Component {
           <div className="projectContext">
            <div className="projectInfoWrapper">
             <div className="projectTitle">Speak for the Trees Boston</div>
-            <img className="projectImage"/>
+            <img className="projectImage" alt="Speak for the Trees Boston"/>
             <h2>What is Speak for the Trees Boston?</h2>
             <h3>Speak for the Trees Boston (SFFTB) aims to improve the size and health of the urban forest in the greater Boston area,
                  with a focus on under-served and under-canopied neighborhoods. They work with volunteers to inventory (collect data)
@@ -21,8 +21,8 @@ class SFFTB extends Component {
             <div className="youtubeVideo" >
               <iframe className="iFrame" src="https://www.youtube.com/embed/wUnngAqSp7g" frameBorder="0"/>
             </div>
-            <h2><a href="https://www.sfttbos.org/" target="_blank" className="projectLink">Speak for the Trees Boston</a></h2>
-            <h2><a href="http://app.sfttbos.org/" target="_blank" className="projectLink">Created Software</a></h2>
+            <h2><a href="https://www.sfttbos.org/" rel="noopener noreferrer" target="_blank" className="projectLink">Speak for the Trees Boston</a></h2>
+            <h2><a href="http://app.sfttbos.org/" rel="noopener noreferrer" target="_blank" className="projectLink">Created Software</a></h2>
             <h2>Tools used</h2>
             <h3>Vue, JavaScript, HTML, CSS, Java, JUnit, PostgreSQL, Apache Maven, Travis CI</h3>
             <h2>What I did</h2>

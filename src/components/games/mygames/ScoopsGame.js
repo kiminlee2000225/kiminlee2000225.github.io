@@ -7,7 +7,7 @@ class ScoopsGame extends Component {
           <div className="gameContext">
            <div className="gameInfoWrapper">
             <div className="gameTitle">Scoops</div>
-            <img className="gameImage"/>
+            <img className="gameImage" alt="Scoops"/>
             <h2>What is Scoops?</h2>
             <h3>Scoops is a 2D puzzle bubble shooter game word game with an ice cream theme. The player must form words with the letter
                bubbles he/she/they shoot, to gain points based on a similar point-system to Scrabble. </h3>
@@ -16,11 +16,11 @@ class ScoopsGame extends Component {
             <h3>This project was done as a part of Peach Beach Studios. Peach Beach Studios is a small game developing company made up 
               of seven intrepid members. Our mission is to create relaxing but dynamic games with twists on classic tropes. We're based
                in the heart of Boston and are doing our best to deliver great gaming content.</h3>
-            <h2><a href="https://www.youtube.com/watch?v=YpIuLUxFhlg" target="_blank" className="gameLink">Gameplay</a></h2>
+            <h2><a href="https://www.youtube.com/watch?v=YpIuLUxFhlg" rel="noopener noreferrer" target="_blank" className="gameLink">Gameplay</a></h2>
             <div className="youtubeVideo" >
               <iframe className="iFrame" src="https://www.youtube.com/embed/YpIuLUxFhlg" frameBorder="0"/>
             </div>
-            <h2><a href="https://github.com/kiminlee2000225/Scoops" target="_blank" className="gameLink">GitHub</a></h2>
+            <h2><a href="https://github.com/kiminlee2000225/Scoops" rel="noopener noreferrer" target="_blank" className="gameLink">GitHub</a></h2>
             <h2>Tools used</h2>
             <h3>Unity, C#</h3>
             <h2>What I did</h2>

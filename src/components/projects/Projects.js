@@ -10,7 +10,13 @@ import C4CWebsite from "./myprojects/C4CWebsite.js";
 import LinGO from "./myprojects/LinGO.js";
 import ScrollAnimation from 'react-animate-on-scroll';
 
-const rowSize = 1;
+let rowSize = 3;
+var mq = window.matchMedia(`(max-width: 812px)`);
+if(mq.matches) {
+  rowSize = 2;
+} else {
+  rowSize = 3;
+}
 
 const projects = [{image: '/assets/images/bento2.png', title: "Bento", description: "Recipe Builder Software", component: <Bento/>},
                   {image: '/assets/images/sfft.png', title: "Speak for the Trees Boston", description: "Tree Block Reservation System", component: <SFFTB/>},
@@ -94,7 +100,7 @@ function Tile({project, setDrawer}) {
   return(
       <div className="tile">
         <div className="tileInnerProject" onClick={() => setDrawer(project)}>
-            <img className="tileImage" src={project.image}/>
+            <img className="tileImage" alt="project image" src={project.image}/>
             <div className="tileTitle">{project.title}</div>
             <div className="tileDescription">{project.description}</div>
         </div>

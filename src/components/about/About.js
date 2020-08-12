@@ -23,15 +23,15 @@ class About extends Component {
                         passionate about building innovative software and developing breath-taking 
                         and immersive games.</h2>
                       <h2>Currently, I am a software engineer for cloud services co-op at 
-                        <a href="https://www.motorolasolutions.com/en_us.html" target="_blank" className="highlightedText"> Motorola Solutions</a>, working as a 
+                        <a href="https://www.motorolasolutions.com/en_us.html" rel="noopener noreferrer" target="_blank" className="highlightedText"> Motorola Solutions</a>, working as a 
                         full-stack developer.</h2>
-                      <h2>Alongside, I am a Testing & Security member at <a href="https://www.c4cneu.com" className="highlightedText"> Code 4 Community</a>, a Sponsorship member 
+                      <h2>Alongside that, I am a Testing & Security member at <a href="https://www.c4cneu.com" className="highlightedText"> Code 4 Community</a>, a Sponsorship member 
                         of <a href="https://hackbeanpot.com" className="highlightedText"> HackBeanpot</a>, and a programmer/game developer for <a className="highlightedText"> Peach Beach Studios</a>.
                       </h2>
                       <h2>When I’m not coding or building games, I’m either jamming to J-Pop/Korean R&B, 
                         immersing myself in the breathtaking world of video games, or relaxing in Japanese-style 
                         hot springs. Some of my favorite games are Kid Icarus Uprising, League of Legends, Secret Hitler, and of course, 
-                        the Super Smash Bros. series (Inciniroar main). 
+                        the Super Smash Bros. series (Incineroar main). 
                       </h2>
                       </ScrollAnimation>
                     </div>

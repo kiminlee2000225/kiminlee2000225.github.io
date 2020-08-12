@@ -11,7 +11,14 @@ import HostageEscapeRoom from "./mygames/HostageEscapeRoomGame.js";
 import MarbleSolitaire from "./mygames/MarbleSolitaireGame.js";
 import ScrollAnimation from 'react-animate-on-scroll';
 
-const rowSize = 1;
+let rowSize = 3;
+var mq = window.matchMedia(`(max-width: 812px)`);
+if(mq.matches) {
+  rowSize = 2;
+} else {
+  rowSize = 3;
+}
+
 
 const games = [{image: '/assets/images/NN.png', title: "Narcoleptic Nummies", description: "2D Platformer", component: <NarcolepticNummies/>},
               {image: '/assets/images/MaysJourneyImage.png', title: "May's Journey", description: "3D Puzzle Programming Game", component: <MaysJourney/>},
@@ -95,7 +102,7 @@ function Tile({game, setDrawer}) {
   return(
       <div className="tile">
         <div className="tileInner" onClick={() => setDrawer(game)}>
-            <img className="tileImage" src={game.image}/>
+            <img className="tileImage" alt="game image" src={game.image}/>
             <div className="tileTitle">{game.title}</div>
             <div className="tileDescription">{game.description}</div>
         </div>

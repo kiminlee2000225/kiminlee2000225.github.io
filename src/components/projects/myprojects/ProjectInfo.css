@@ -30,7 +30,6 @@
     justify-content: center;
     align-items: center;
     padding: 4vh 3vh;
-    margin: 20px 20px;
 }
 
 .projectTitle {
@@ -43,7 +42,6 @@
 }
 
 .youtubeVideo {
-    /* padding-bottom: 56.25%; */
     margin-top: 40px;
     margin-bottom: -120px;
     align-items: center;
@@ -81,13 +79,62 @@ background-color: #000;
 visibility: hidden;
 transform: scaleX(0);
 transition: all 0.3s ease-in-out 0s;
+visibility: visible;
+transform: scaleX(1);
 }
 
 h2 > a:hover::before {
 visibility: visible;
+
 transform: scaleX(1);
 }
 
 .projectLink {
     text-decoration: none;
+}
+
+@media only screen and (max-width: 812px) {
+    h2 > a {
+        text-decoration: underline;
+    }
+      
+    h2 > a::before {
+        visibility: visible;
+        transform: scaleX(1);
+    }
+
+    .youtubeVideo {
+        padding-bottom: 320px;
+        margin-top: 20px;
+        align-items: center;
+        text-align: center;
+        display: block;
+        justify-content: center;
+        margin-left: 0;
+    }
+    
+    .iFrame {
+        width: 305px;
+        height: 200px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .lastParagraph {
+        padding-bottom: 15px;
+    }
+
+    .projectTitle {
+        font-size: 32px;
+    }
+
+    .projectContext h2 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 18px;
+    }
+    
+    .projectContext h3 {
+        font-size: 12px;
+    }
 }

@@ -29,7 +29,7 @@ class Contact extends Component {
                         </ScrollAnimation>
                         <ScrollAnimation animateIn="fadeInDown" offset={-500} animateOnce={true} delay={800} >
                           <div className="email">
-                            <h2><a href={"mailto:kiminlee2000225@gmail.com"} target="_blank">Email me!</a></h2>
+                            <h2><a href={"mailto:kiminlee2000225@gmail.com"} rel="noopener noreferrer" target="_blank">Email me!</a></h2>
                           </div>
                         </ScrollAnimation>
                       </div>

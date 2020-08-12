@@ -7,7 +7,7 @@ class Bento extends Component {
           <div className="projectContext">
            <div className="projectInfoWrapper">
             <div className="projectTitle">Bento</div>
-            <img className="projectImage"/>
+            <img className="projectImage" alt="Bento"/>
             <h2>What is Bento?</h2>
             <h3>Have you ever opened your fridge, just to close it and to have the cycle repeat 2 minutes later? It's a real problem. 
                 You find yourself a week later having to mass clean out your fridge. We've ALL been there. My teammates and I thought 
@@ -21,7 +21,7 @@ class Bento extends Component {
             <div className="youtubeVideo" >
               <iframe className="iFrame" src="https://www.youtube.com/embed/wUnngAqSp7g" frameBorder="0"/>
             </div>
-            <h2><a href="https://github.com/kiminlee2000225/bento" target="_blank" className="projectLink">GitHub</a></h2>
+            <h2><a href="https://github.com/kiminlee2000225/bento" rel="noopener noreferrer" target="_blank" className="projectLink">GitHub</a></h2>
             <h2>Tools used</h2>
             <h3>React, Python, BeautifulSoup, JavaScript, HTML, CSS</h3>
             <h2>What I did</h2>

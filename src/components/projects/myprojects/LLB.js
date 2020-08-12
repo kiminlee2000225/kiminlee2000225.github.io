@@ -7,7 +7,7 @@ class LLB extends Component {
           <div className="projectContext">
            <div className="projectInfoWrapper">
             <div className="projectTitle">Lucy's Love Bus</div>
-            <img className="projectImage"/>
+            <img className="projectImage" alt="Lucy's Love Bus"/>
             <h2>What is Lucy's Love Bus?</h2>
             <h3>Lucy’s Love Bus (LLB) improves quality of life for children with cancer or other life-threatening illnesses with 
                 integrative therapies like massage, meditation, acupuncture, music therapy, and therapeutic horseback riding. 
@@ -20,8 +20,8 @@ class LLB extends Component {
             <div className="youtubeVideo" >
               <iframe className="iFrame" src="https://www.youtube.com/embed/wUnngAqSp7g" frameBorder="0"/>
             </div>
-            <h2><a href="https://lucyslovebus.org" target="_blank" className="projectLink">Lucy's Love Bus</a></h2>
-            <h2><a href="http://lovebusprograms.org/" target="_blank" className="projectLink">Created Software</a></h2>
+            <h2><a href="https://lucyslovebus.org" rel="noopener noreferrer" target="_blank" className="projectLink">Lucy's Love Bus</a></h2>
+            <h2><a href="http://lovebusprograms.org/" rel="noopener noreferrer" target="_blank" className="projectLink">Created Software</a></h2>
             <h2>Tools used</h2>
             <h3>Vue, JavaScript, HTML, CSS, Java, JUnit, PostgreSQL, Apache Maven, Travis CI</h3>
             <h2>What I did</h2>

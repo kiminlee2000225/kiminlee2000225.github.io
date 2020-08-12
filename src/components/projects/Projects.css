@@ -60,10 +60,18 @@
 
 @media only screen and (max-width: 812px) {
     .projects {
-      width: 100%;
-      min-width: 0;
-      min-height: 47em;
-      height: calc(var(--vh, 1vh) * 100);
+        min-width: 0;
+        height: 100vh;
+        min-height: 40em;
     }
-  
+    
+    .tileInnerProject {
+        height: 150px;
+        width: 160px;
+        margin: 8px;
+    }
+
+    .titleProjects span {
+        font-size: 24px;
+    }
   }

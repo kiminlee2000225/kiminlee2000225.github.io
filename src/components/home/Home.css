@@ -216,16 +216,15 @@
 
 @media only screen and (max-width: 812px) {
   .home {
-    width: 100%;
     min-width: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+    height: 100vh;
+    min-height: 35em;
   }
 
   .introText h1 {
     margin: 0;
     letter-spacing: 3px;
-    font-size: 16px;
+    font-size: 17px;
     width: 80%;
   }
 
@@ -235,19 +234,38 @@
 
   .letters3{
     letter-spacing: 1px;
-    font-size: 60px;
+    font-size: 55px;
   }
   
   .letters2{
     letter-spacing: 1px;
-    font-size: 60px;
+    font-size: 55px;
   }
 
   .scrollImage {  
     position: absolute;  
-    height: 23px;
-    width: 43px;
+    height: 22px;
+    width: 42px;
   }
 
+  .scrollButton {
+    top: 93%;
+    left: 44%;
+  }
+
+  .ml11 .line {
+    margin-top: 3.5px;
+    height: 80%;
+  }
+
+  .ml12 .line_1 {
+    margin-top: 14px;
+    height: 70%;
+  }
+
+  .ml13 .line_2 {
+    margin-top: 3px;
+    height: 85%;
+  }
 
 }

@@ -7,7 +7,7 @@ class LinGO extends Component {
           <div className="projectContext">
            <div className="projectInfoWrapper">
             <div className="projectTitle">LinGO</div>
-            <img className="projectImage"/>
+            <img className="projectImage" alt="LinGO"/>
             <h2>What is LinGO?</h2>
             <h3>LinGO is an on-demand translator service, connecting live translators with people who require translations in high 
                 stake environments such as the doctor’s appointment. Services like Google Translate help us a lot in our basic 
@@ -17,11 +17,11 @@ class LinGO extends Component {
                 group members sharing about how their parents once had to stay on call for several hours while their grandparents
                  were in the hospital seeing a doctor, so that they could act as a translator. We saw this project as something that 
                  could be extremely beneficial for users.</h3>
-            <h2><a href="https://www.youtube.com/watch?v=a8f7xlpFCr0" target="_blank" className="projectLink">linGO Demo</a></h2>
+            <h2><a href="https://www.youtube.com/watch?v=a8f7xlpFCr0" rel="noopener noreferrer" target="_blank" className="projectLink">linGO Demo</a></h2>
             <div className="youtubeVideo" >
               <iframe className="iFrame" src="https://www.youtube.com/embed/a8f7xlpFCr0" frameBorder="0"/>
             </div>
-            <h2><a href="https://github.com/kiminlee2000225/linGO" target="_blank" className="projectLink">GitHub</a></h2>
+            <h2><a href="https://github.com/kiminlee2000225/linGO" rel="noopener noreferrer" target="_blank" className="projectLink">GitHub</a></h2>
             <h2>Tools used</h2>
             <h3>Wix, Wix Code, JavaScript, HTML, CSS, Adobe Photoshop, Adobe Illustrator</h3>
             <h2>What I did</h2>
