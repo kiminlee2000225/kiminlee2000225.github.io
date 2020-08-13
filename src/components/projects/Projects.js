@@ -8,6 +8,7 @@ import SFFTB from "./myprojects/SFFTB.js";
 import LLB from "./myprojects/LLB.js";
 import C4CWebsite from "./myprojects/C4CWebsite.js";
 import LinGO from "./myprojects/LinGO.js";
+import PersonalWebsite from "./myprojects/PersonalWebsite.js";
 import ScrollAnimation from 'react-animate-on-scroll';
 
 let rowSize = 3;
@@ -23,7 +24,7 @@ const projects = [{image: '/assets/images/bento2.png', title: "Bento", descripti
                   {image: '/assets/images/llb.png', title: "Lucy's Love Bus", description: "Event Management System", component: <LLB/>},
                   {image: '/assets/images/c4c.png', title: "Code 4 Community Website", description: "Northeastern University Club Website", component: <C4CWebsite/>},
                   {image: '/assets/images/lingo.png', title: "LinGO", description: "Live Translator Service", component: <LinGO/>},
-                  {image: '/assets/images/website.png', title: "Personal Portfolio Website", description: "This website!", component: <Bento/>}];
+                  {image: '/assets/images/website.png', title: "Personal Portfolio Website", description: "This website!", component: <PersonalWebsite/>}];
 
 function Projects() {
   const [drawer, setDrawer] = React.useState(null);

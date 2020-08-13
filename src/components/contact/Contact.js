@@ -23,13 +23,29 @@ class Contact extends Component {
                         <div className="searchTime">
                           <div className="resumeLink">
                             <h2>Psst! I’m looking for opportunities in between <a>May 2021 - August 2021!</a></h2>
-                            <h2>Check out my <a href="assets/files/resume.pdf" target = "_blank">Resume</a></h2>
                           </div>
                         </div>
                         </ScrollAnimation>
                         <ScrollAnimation animateIn="fadeInDown" offset={-500} animateOnce={true} delay={800} >
                           <div className="email">
-                            <h2><a href={"mailto:kiminlee2000225@gmail.com"} rel="noopener noreferrer" target="_blank">Email me!</a></h2>
+                            <h2>Check out my <a href="assets/files/Resume.pdf" target = "_blank">Resume!</a></h2>
+                          </div>
+                          <div className="icons">
+                            <div className="icon">
+                              <a href="https://www.linkedin.com/in/kiminlee/" rel="noopener noreferrer" target="_blank">
+                                <img className="iconImageLinkedin" src="/assets/images/linkedin.png"/>
+                              </a>
+                            </div>
+                            <div className="icon">
+                              <a href={"mailto:kiminlee2000225@gmail.com"} rel="noopener noreferrer" target="_blank">
+                                <img className="iconImage" src="/assets/images/mail.png"/>
+                              </a>
+                            </div>
+                            <div className="icon">
+                              <a href="https://github.com/kiminlee2000225" rel="noopener noreferrer" target="_blank">
+                                <img className="iconImage" src="/assets/images/github.png"/>
+                              </a>
+                            </div>
                           </div>
                         </ScrollAnimation>
                       </div>

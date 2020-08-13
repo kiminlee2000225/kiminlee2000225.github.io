@@ -3,7 +3,7 @@
 .contact {
     background-color: #3c4046;
     width: 100%;
-    min-width: 80em;
+    min-width: 1400px;
     min-height: 47em;
     height: 100vh;
     font-family: 'Roboto', sans-serif;
@@ -40,7 +40,7 @@ button {
 
 .contactText {
     font-size: 13px;
-    padding-top: 5vh;
+    padding-top: 20px;
     float: left;
     text-align: center;
     color: #fcfcfc;
@@ -55,13 +55,12 @@ button {
 }
 
 .searchTime {
-    padding-top: 2vh;
+    padding-top: 20px;
 }
 
 .email {
     font-size: 13px;
-    font-family: 'Lato', sans-serif;
-    padding-top: 5vh;
+    padding-top: 20px;
 }
 
 
@@ -115,7 +114,7 @@ button {
 .email h2 > a {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    padding-top: 5vh;
+    padding-top: 20px;
     color: #d8c6ae;
 }
 
@@ -142,6 +141,55 @@ button {
     transform: scaleX(1);
 }
 
+.iconImage {
+    width: 50px;
+    height: 50px;
+}
+
+.iconImageLinkedin {
+    width: 60px;
+    height: 60px;
+}
+
+.icons {
+    display: block;
+    position: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 18px;
+    padding-top: 23px;
+}
+
+.icon {
+    padding: 0 50px;
+    display: inline;
+    justify-content: center;
+    width: 100%;
+    position: center;
+    text-align: center;
+    padding-inline-start: 0px;
+}
+
+.iconImageLinkedin:hover {
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out; 
+    -moz-transition: all .2s ease-in-out; 
+    -o-transition: all .2s ease-in-out; 
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.iconImage:hover {
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out; 
+    -moz-transition: all .2s ease-in-out; 
+    -o-transition: all .2s ease-in-out; 
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
 @media only screen and (min-width: 667px) and (max-width: 812px) {
     .contact {
         min-width: 0;
@@ -160,7 +208,6 @@ button {
 
     .email h2 > a {
         font-size: 17px;
-        padding-top: 5vh;
         left: -13px
     }
 
@@ -180,6 +227,16 @@ button {
     .searchTime {
         padding-top: 2vh;
     }
+
+    .iconImage {
+        width: 30px;
+        height: 30px;
+    }
+
+    .iconImageLinkedin {
+        width: 38px;
+        height: 38px;
+    }
     
   }
 
@@ -195,19 +252,20 @@ button {
     }
 
     .email {
+        text-align: center;
         font-size: 20px;
-        padding: 8px 120px;
+        padding: 8px 90px;
     }
 
     .email h2 > a {
         font-size: 17px;
-        padding-top: 5vh;
-        left: -23px
+        padding-top: 2vh;
     }
 
     .email h2 {
-        margin: 0 30px;
-        width: 85%;
+        overflow: hidden;
+    white-space: nowrap;
+        width: 100%;
     }
 
     .contactText h1 {
@@ -220,5 +278,24 @@ button {
     
     .searchTime {
         padding-top: 2vh;
+    }
+
+    .iconImage {
+        width: 30px;
+        height: 30px;
+    }
+
+    .iconImageLinkedin {
+        width: 38px;
+        height: 38px;
+    }
+
+    .icon {
+        padding: 0 20px;
+    }
+
+    .icons {
+        padding-top: 10px;
+        margin-left: 0px;
     }
   }
