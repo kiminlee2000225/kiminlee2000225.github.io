@@ -33,17 +33,17 @@ class Contact extends Component {
                           <div className="icons">
                             <div className="icon">
                               <a href="https://www.linkedin.com/in/kiminlee/" rel="noopener noreferrer" target="_blank">
-                                <img className="iconImageLinkedin" src="/assets/images/linkedin.png"/>
+                                <img alt="Linkedin" className="iconImageLinkedin" src="/assets/images/linkedin.png"/>
                               </a>
                             </div>
                             <div className="icon">
                               <a href={"mailto:kiminlee2000225@gmail.com"} rel="noopener noreferrer" target="_blank">
-                                <img className="iconImage" src="/assets/images/mail.png"/>
+                                <img alt="Email" className="iconImage" src="/assets/images/mail.png"/>
                               </a>
                             </div>
                             <div className="icon">
                               <a href="https://github.com/kiminlee2000225" rel="noopener noreferrer" target="_blank">
-                                <img className="iconImage" src="/assets/images/github.png"/>
+                                <img alt="GitHub" className="iconImage" src="/assets/images/github.png"/>
                               </a>
                             </div>
                           </div>

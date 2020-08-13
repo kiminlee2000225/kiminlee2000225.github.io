@@ -37,7 +37,7 @@ class About extends Component {
                     </div>
                     <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} delay={700} offset={350}>
                     <div className="imageDiv">
-                      <img className="portrait" src={PortraitImage}></img>
+                      <img alt="portrait" className="portrait" src={PortraitImage}></img>
                   </div>
                   </ScrollAnimation>
                 </div>

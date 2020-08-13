@@ -14,7 +14,7 @@ class Home extends Component {
                     <div className="scrollButton"> 
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true} delay={5900} offset={60}>
                       <ScrollAnimation animateIn="bounce" animateOnce={true} delay={5910} offset={60}>
-                        <img className="scrollImage" alt="Scroll Down Image" src={scrollDownImage}/>
+                        <img className="scrollImage" alt="Scroll Down" src={scrollDownImage}/>
                       </ScrollAnimation>
                     </ScrollAnimation>
                     </div>
