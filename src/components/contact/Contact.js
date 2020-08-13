@@ -16,7 +16,7 @@ class Contact extends Component {
                       </ScrollAnimation>
                       <ScrollAnimation animateIn="fadeInDown" offset={-500} animateOnce={true} delay={500} >
                         <div className="contactMe">
-                          <h1>Whether you have any questions, want to chat about your favorite game, or just want to say hi, feel free to contact me!</h1>
+                          <h1>Whether you have any questions, want to chat about your favorite game, or just want to say "hi", feel free to contact me!</h1>
                         </div>
                         </ScrollAnimation>
                         <ScrollAnimation animateIn="fadeInDown" offset={-500} animateOnce={true} delay={800} >
