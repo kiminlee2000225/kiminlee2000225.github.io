@@ -15,7 +15,7 @@ class About extends Component {
                   <ScrollAnimation animateIn="fadeInDown" animateOnce={true} delay={1}>
                     <div className="titleAbout"><span>About</span></div>
                   </ScrollAnimation>
-                     <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} delay={700} offset={250}>
+                     <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} delay={300} offset={250}>
                       <h2>Hi! I’m Kimin, a user-focused software engineer and a player-minded 
                         game developer. I’m currently pursuing a Bachelor of Science degree in
                          <a href="https://www.c4cneu.com" className="highlightedText"> Computer Science & Game Development </a> 
@@ -35,7 +35,7 @@ class About extends Component {
                       </h2>
                       </ScrollAnimation>
                     </div>
-                    <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} delay={700} offset={350}>
+                    <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} delay={300} offset={350}>
                     <div className="imageDiv">
                       <img alt="portrait" className="portrait" src={PortraitImage}></img>
                   </div>

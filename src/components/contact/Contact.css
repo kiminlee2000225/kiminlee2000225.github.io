@@ -144,11 +144,21 @@ button {
 .iconImage {
     width: 50px;
     height: 50px;
+    transition: all .12s ease-in-out;
+    -webkit-transition: all .12s ease-in-out; 
+    -moz-transition: all .12s ease-in-out; 
+    -o-transition: all .12s ease-in-out; 
+    transition: all .12s ease-in-out;
 }
 
 .iconImageLinkedin {
     width: 60px;
     height: 60px;
+    transition: all .12s ease-in-out;
+    -webkit-transition: all .12s ease-in-out; 
+    -moz-transition: all .12s ease-in-out; 
+    -o-transition: all .12s ease-in-out; 
+    transition: all .12s ease-in-out;
 }
 
 .icons {
@@ -171,21 +181,11 @@ button {
 }
 
 .iconImageLinkedin:hover {
-    transition: all .2s ease-in-out;
-    -webkit-transition: all .2s ease-in-out; 
-    -moz-transition: all .2s ease-in-out; 
-    -o-transition: all .2s ease-in-out; 
-    transition: all .2s ease-in-out;
     cursor: pointer;
     transform: scale(1.2);
 }
 
 .iconImage:hover {
-    transition: all .2s ease-in-out;
-    -webkit-transition: all .2s ease-in-out; 
-    -moz-transition: all .2s ease-in-out; 
-    -o-transition: all .2s ease-in-out; 
-    transition: all .2s ease-in-out;
     cursor: pointer;
     transform: scale(1.2);
 }

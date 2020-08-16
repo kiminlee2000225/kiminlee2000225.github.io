@@ -8,9 +8,9 @@ class NarcolepticNummiesGame extends Component {
            <div className="gameInfoWrapper">
             <div className="gameTitle">Narcoleptic Nummies</div>
             <h2>What is Narcoleptic Nummies?</h2>
-            <h3>	Narcoleptic Nummies is a 2D platformer puzzle game that reflects the uncontrollable sleep schedule that a person with a narcoleptic
+            <h3>Narcoleptic Nummies is a 2D puzzle platformer game that reflects the uncontrollable sleep schedule that a person with a narcoleptic
                disorder experiences. This game was created within 48 hours for the 2020 GMTK Game Jam. The theme was "out of control." The world can 
-               phase between the dreaming and waking worlds at any time! Narcoleptic Nummies was in the top 15.8% of the ratings for the game jam overall.</h3>
+               phase between the dreaming and waking worlds at any time! Narcoleptic Nummies was in the top 15% of the ratings for the game jam overall out of the 5411 participating teams.</h3>
             <h3>Nelson is a narcoleptic with a sweet tooth, on the hunt for his cookies. Sleep hits him uncontrollably. Collect the cookies and watch out for 
               vegetables. But beware! When he’s dreaming, the lovable nummies aren’t what they seem to be anymore… </h3>
             <h3>This project was done as a part of Peach Beach Studios. Peach Beach Studios is a small game developing company made up of seven intrepid
