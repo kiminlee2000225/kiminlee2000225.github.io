@@ -229,8 +229,8 @@ and (-webkit-min-device-pixel-ratio: 3) {
     }
 
     .tileInner {
-        height: 140px;
-        width: 145px;
+        height: 133px;
+        width: 133px;
         margin: 8px;
     }
 
@@ -241,4 +241,13 @@ and (-webkit-min-device-pixel-ratio: 3) {
     .titleGames {
         padding-left: 2vh;
     }
+
+    .tileTitle {
+        font-size: 10px;
+    }
+
+    .tileDescription {
+        font-size: 8px;
+    }
+
 }
