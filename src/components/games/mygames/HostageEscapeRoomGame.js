@@ -22,6 +22,7 @@ class HostageEscapeRoomGame extends Component {
             </div>
             <h2><a href="https://github.com/kiminlee2000225/EscapeRoom" rel="noopener noreferrer" target="_blank" className="gameLink">GitHub</a></h2>
             <h2><a href="https://developer.cloud.unity3d.com/webgl/webgl.html?shareId=ZJuxmKgvnB" rel="noopener noreferrer" target="_blank" className="gameLink">WebGL Game Link</a></h2>
+            <h2><a href="https://docs.google.com/document/d/1uL_qWyUNHGhI39YhLwI79Ei1rQ7-STzm8JgdoEwxMGI/edit?usp=sharing" rel="noopener noreferrer" target="_blank" className="gameLink">Game Design Document</a></h2>
             <h2>Tools used</h2>
             <h3>Unity, C#</h3>
             <h2>What I did</h2>

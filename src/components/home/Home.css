@@ -269,3 +269,29 @@
   }
 
 }
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .introText h1 {
+      font-size: 15px;
+    }
+
+    .letters {
+      font-size: 18px;
+    }
+
+    .letters3{
+      font-size: 50px;
+    }
+    
+    .letters2{
+      font-size: 50px;
+    }
+  
+    .scrollImage {  
+      height: 20px;
+      width: 38px;
+    }
+}

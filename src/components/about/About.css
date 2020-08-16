@@ -243,3 +243,18 @@ and (-webkit-min-device-pixel-ratio: 3) {
         height: auto;
     }
 }
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .about {
+        min-height: 38em;
+    }
+
+    .portrait {
+        padding: 8px 55px;
+        padding-top: 15px;
+        width: 180px;
+    }
+}      
