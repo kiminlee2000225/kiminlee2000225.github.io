@@ -225,7 +225,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
     .overlayComponent {
-        margin-left: 2%;
+        margin-left: 3%;
     }
 
     .tileInner {
