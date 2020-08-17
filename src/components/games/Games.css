@@ -161,7 +161,10 @@
     color: #3c4046;
 }
 
-@media only screen and (max-width: 812px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
     .games {
         min-width: 0;
         height: 100vh;
@@ -169,9 +172,59 @@
     }
 
     .overlayComponent {
-        margin-left: 0;
+        margin-left: 2%;
         margin-top: 50px;
-        width: 94%;
+        width: 90%;
+        height: 93vh;
+        background-color: #edeef1;
+    }
+
+    .tileTitle {
+        font-weight: bold;
+        font-size: 11px;
+        margin-top: -6px;
+        color: #6a7079;
+    }
+
+    .tileDescription {
+        font-size: 9px;
+        margin: 3px;
+        bottom: 0;
+        color: #3c4046;
+    }
+
+    .tileInner {
+        height: 150px;
+        width: 160px;
+        margin: 8px;
+    }
+
+    .titleGames span {
+        font-size: 24px;
+    }
+
+    .exitButton {
+        top: 1%;
+        left: 93%;
+        font-size: 25px;
+    }
+  
+}
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .games {
+        min-width: 0;
+        height: 100vh;
+        min-height: 40em;
+    }
+
+    .overlayComponent {
+        margin-left: -2%;
+        margin-top: 50px;
+        width: 90%;
         height: 93vh;
         background-color: #edeef1;
     }
@@ -209,45 +262,99 @@
   }
 
 @media only screen 
-and (min-device-width: 414px) 
-and (max-device-width: 736px) 
-and (-webkit-min-device-pixel-ratio: 3) { 
-    .overlayComponent {
-        margin-left: -4%;
-        margin-top: 50px;
-        width: 93%;
-        height: 90vh;
-    }
-}
-
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .overlayComponent {
-        margin-left: 3%;
-    }
-
-    .tileInner {
-        height: 133px;
-        width: 133px;
-        margin: 8px;
-    }
-
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
     .games {
-        min-height: 38em;
+        min-width: 0;
+        height: 100vh;
+        min-height: 40em;
     }
 
-    .titleGames {
-        padding-left: 2vh;
+    .overlayComponent {
+        margin-left: 2%;
+        margin-top: 50px;
+        width: 89%;
+        height: 93vh;
+        background-color: #edeef1;
     }
 
     .tileTitle {
-        font-size: 10px;
+        font-weight: bold;
+        font-size: 11px;
+        margin-top: -6px;
+        color: #6a7079;
     }
 
     .tileDescription {
-        font-size: 8px;
+        font-size: 9px;
+        margin: 3px;
+        bottom: 0;
+        color: #3c4046;
     }
 
+    .tileInner {
+        height: 150px;
+        width: 160px;
+        margin: 8px;
+    }
+
+    .titleGames span {
+        font-size: 24px;
+    }
+
+    .exitButton {
+        top: 1%;
+        left: 93%;
+        font-size: 25px;
+    }
+  
+  }
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) 
+and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
+{
+    .games {
+        min-width: 0;
+        height: 100vh;
+        min-height: 40em;
+    }
+
+    .overlayComponent {
+        margin-left: 4%;
+        margin-top: 50px;
+        width: 90%;
+        height: 93vh;
+        background-color: #edeef1;
+    }
+
+    .tileTitle {
+        font-weight: bold;
+        font-size: 10px;
+        margin-top: -6px;
+        color: #6a7079;
+    }
+
+    .tileDescription {
+        font-size: 7.5px;
+        margin: 3px;
+        bottom: 0;
+        color: #3c4046;
+    }
+
+    .tileInner {
+        height: 135px;
+        width: 140px;
+        margin: 8px;
+    }
+
+    .titleGames span {
+        font-size: 24px;
+    }
+
+    .exitButton {
+        top: 1%;
+        left: 93%;
+        font-size: 25px;
+    }
 }

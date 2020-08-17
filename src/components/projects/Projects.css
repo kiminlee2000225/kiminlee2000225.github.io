@@ -58,7 +58,11 @@
     background: #edeef1;
 }
 
-@media only screen and (max-width: 812px) {
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
     .projects {
         min-width: 0;
         height: 100vh;
@@ -77,20 +81,42 @@
   }
 
 @media only screen 
-and (min-device-width: 320px) 
-and (max-device-width: 568px)
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
 and (-webkit-min-device-pixel-ratio: 2) {
+    .projects {
+        min-width: 0;
+        height: 100vh;
+        min-height: 40em;
+    }
+    
     .tileInnerProject {
-        height: 133px;
-        width: 133px;
+        height: 150px;
+        width: 160px;
         margin: 8px;
     }
 
+    .titleProjects span {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) 
+and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
+{
     .projects {
-        min-height: 38em;
+        min-width: 0;
+        height: 100vh;
+        min-height: 40em;
+    }
+    
+    .tileInnerProject {
+        height: 135px;
+        width: 140px;
+        margin: 8px;
     }
 
-    .titleProjects {
-        padding-left: 2vh;
+    .titleProjects span {
+        font-size: 24px;
     }
-}      
+}
