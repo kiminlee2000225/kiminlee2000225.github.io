@@ -104,7 +104,7 @@ transform: scaleX(1);
     }
 
     .youtubeVideo {
-        padding-bottom: 320px;
+        padding-bottom: 270px;
         margin-top: 20px;
         align-items: center;
         text-align: center;
@@ -114,8 +114,8 @@ transform: scaleX(1);
     }
     
     .iFrame {
-        width: 280px;
-        height: 180px;
+        width: 260px;
+        height: 145px;
         align-items: center;
         text-align: center;
     }
