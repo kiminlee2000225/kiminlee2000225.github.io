@@ -171,14 +171,6 @@
         min-height: 40em;
     }
 
-    .overlayComponent {
-        margin-left: 2%;
-        margin-top: 50px;
-        width: 90%;
-        height: 93vh;
-        background-color: #edeef1;
-    }
-
     .tileTitle {
         font-weight: bold;
         font-size: 11px;
@@ -221,14 +213,6 @@
         min-height: 40em;
     }
 
-    .overlayComponent {
-        margin-left: -2%;
-        margin-top: 50px;
-        width: 90%;
-        height: 93vh;
-        background-color: #edeef1;
-    }
-
     .tileTitle {
         font-weight: bold;
         font-size: 11px;
@@ -269,14 +253,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
         min-width: 0;
         height: 100vh;
         min-height: 40em;
-    }
-
-    .overlayComponent {
-        margin-left: 0%;
-        margin-top: 50px;
-        width: 89%;
-        height: 93vh;
-        background-color: #edeef1;
     }
 
     .tileTitle {
@@ -322,7 +298,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .overlayComponent {
-        margin-left: 4%;
+        margin-left: -6%;
         margin-top: 50px;
         width: 90%;
         height: 93vh;
@@ -357,5 +333,32 @@ and (-webkit-min-device-pixel-ratio: 2) {
         top: 1%;
         left: 93%;
         font-size: 25px;
+    }
+}
+
+@media only screen 
+and (min-device-width: 375.1px) 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+    .overlayComponent {
+        margin-left: -6%;
+    }
+}
+
+@media only screen 
+and (min-device-width: 320.1px) 
+and (max-device-width: 375px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+    .overlayComponent {
+        margin-left: -2.5%;
+    }
+}
+
+@media only screen 
+and (min-device-width: 0px) 
+and (max-device-width: 320px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+    .overlayComponent {
+        margin-left: 5%;
     }
 }
