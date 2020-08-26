@@ -101,9 +101,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) 
-and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
-{
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
     .projects {
         min-width: 0;
         height: 100vh;
