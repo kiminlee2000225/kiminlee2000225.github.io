@@ -6,6 +6,7 @@ import { CSSTransition } from 'react-transition-group';
 import MaysJourney from "./mygames/MaysJourneyGame.js";
 import DefenseHorizon from "./mygames/DefenseHorizonGame.js";
 import NarcolepticNummies from "./mygames/NarcolepticNummiesGame.js";
+import ForTraum from "./mygames/ForTraum.js";
 import Scoops from "./mygames/ScoopsGame.js";
 import HostageEscapeRoom from "./mygames/HostageEscapeRoomGame.js";
 import MarbleSolitaire from "./mygames/MarbleSolitaireGame.js";
@@ -19,8 +20,9 @@ if(mq.matches) {
   rowSize = 3;
 }
 
-const games = [{image: '/assets/images/NN.png', title: "Narcoleptic Nummies", description: "2D Platformer", component: <NarcolepticNummies/>},
-              {image: '/assets/images/MaysJourneyImage.png', title: "May's Journey", description: "3D Puzzle Programming Game", component: <MaysJourney/>},
+const games = [{image: '/assets/images/ForTraum.png', title: "For Traum", description: "(WIP) 2D Platforming Shooter Game", component: <ForTraum/>},
+               {image: '/assets/images/NN.png', title: "Narcoleptic Nummies", description: "2D Platformer", component: <NarcolepticNummies/>},
+               {image: '/assets/images/MaysJourneyImage.png', title: "May's Journey", description: "3D Puzzle Programming Game", component: <MaysJourney/>},
                {image: '/assets/images/DefenseHorizonImage.png', title: "Defense Horizon", description: "FPS Turret Defense Game", component: <DefenseHorizon/>},
                {image: "/assets/images/ScoopsImage.png", title: "Scoops", description: "Mobile Bubble Popper Word Game", component: <Scoops/>},
                {image: "/assets/images/HostageEscapeRoomImage.png", title: "Hostage Escape Room", description: "First Person Digital Escape Room", component: <HostageEscapeRoom/>},

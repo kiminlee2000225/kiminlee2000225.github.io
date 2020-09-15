@@ -1,18 +1,19 @@
 .games {
     background-color: #d8c6ae;
     width: 100%;
-    min-height: 47em;
+    max-height: 85em;
+    min-height: 72em;
     min-width: 1400px;
     height: 105vh;
     font-family: 'Roboto', sans-serif;
 }
 
 .gameComponents {
-    height: 95%;
+    height: 170;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 10em;
+    padding: 6em 10em;
     position: relative;
 }
 
@@ -57,7 +58,7 @@
 }
 
 .tileInner {
-    height: 17em;
+    height: 272px;
     width: 325px;
     margin: 10px;
     display: flex;
@@ -171,6 +172,10 @@
         min-height: 40em;
     }
 
+    .gameComponents {
+        padding: 0em 10em;
+    }
+
     .tileTitle {
         font-weight: bold;
         font-size: 11px;
@@ -213,6 +218,10 @@
         min-height: 40em;
     }
 
+    .gameComponents {
+        padding: 0em 10em;
+    }
+
     .tileTitle {
         font-weight: bold;
         font-size: 11px;
@@ -251,8 +260,12 @@ and (max-device-width: 667px)
 and (-webkit-min-device-pixel-ratio: 2) { 
     .games {
         min-width: 0;
-        height: 100vh;
+        height: 120vh;
         min-height: 40em;
+    }
+
+    .gameComponents {
+        padding: 0em 10em;
     }
 
     .tileTitle {
@@ -293,7 +306,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   and (-webkit-min-device-pixel-ratio: 2) {
     .games {
         min-width: 0;
-        height: 100vh;
+        height: 120vh;
         min-height: 40em;
     }
 
@@ -303,6 +316,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
         width: 90%;
         height: 93vh;
         background-color: #edeef1;
+    }
+
+    .gameComponents {
+        padding: 2em 10em;
     }
 
     .tileTitle {
@@ -343,14 +360,35 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .overlayComponent {
         margin-left: -6%;
     }
+
+    .games {
+        height: 105vh;
+    }
 }
 
 @media only screen 
-and (min-device-width: 320.1px) 
+and (min-device-width: 360.1px) 
 and (max-device-width: 375px) 
 and (-webkit-min-device-pixel-ratio: 2) { 
     .overlayComponent {
         margin-left: -2.5%;
+    }
+
+    .games {
+        height: 100vh;
+    }
+}
+
+@media only screen 
+and (min-device-width: 320.1px) 
+and (max-device-width: 360px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+    .overlayComponent {
+        margin-left: -2.5%;
+    }
+
+    .games {
+        height: 120vh;
     }
 }
 
@@ -360,5 +398,8 @@ and (max-device-width: 320px)
 and (-webkit-min-device-pixel-ratio: 2) { 
     .overlayComponent {
         margin-left: 5%;
+    }
+    .games {
+        height: 130vh;
     }
 }

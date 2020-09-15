@@ -1,18 +1,19 @@
 .projects {
     background-color: #3c4046;
     width: 100%;
-    min-height: 47em;
+    max-height: 85em;
+    min-height: 52em;
     min-width: 1400px;
     height: 105vh;
     font-family: 'Roboto', sans-serif;
 }
 
 .projectsComponents {
-    height: 95%;
+    height: 170;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 10em;
+    padding: 6em 10em;
     position: relative;
 }
 
@@ -48,7 +49,7 @@
 }
 
 .tileInnerProject {
-    height: 17em;
+    height: 272px;
     width: 325px;
     margin: 10px;
     display: flex;
@@ -67,6 +68,10 @@
         min-width: 0;
         height: 100vh;
         min-height: 40em;
+    }
+
+    .projectsComponents {
+        padding: 0em 10em;
     }
     
     .tileInnerProject {
@@ -89,6 +94,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
         height: 100vh;
         min-height: 40em;
     }
+
+    .projectsComponents {
+        padding: 0em 10em;
+    }
     
     .tileInnerProject {
         height: 150px;
@@ -109,6 +118,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
         min-width: 0;
         height: 100vh;
         min-height: 40em;
+    }
+
+    .projectsComponents {
+        padding: 3em 10em;
     }
     
     .tileInnerProject {

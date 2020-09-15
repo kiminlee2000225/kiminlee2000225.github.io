@@ -4,6 +4,7 @@
     background-color: #3c4046;
     width: 100%;
     min-width: 1400px;
+    max-height: 85em;
     min-height: 47em;
     height: 100vh;
     font-family: 'Roboto', sans-serif;

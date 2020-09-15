@@ -12,7 +12,11 @@ class C4CWebsite extends Component {
                  for non-profit organizations within Boston. I am a testing and security member at C4C. </h3>
             <h3>C4C's website was built as a foundational website for anyone to learn about C4C including what
                  C4C does, information on core members, and events hosted by C4C (in the past/future).</h3>
-            <h2><a href="https://www.youtube.com/watch?v=NYqBBvkUqBk" rel="noopener noreferrer" target="_blank" className="projectLink">Demo for First Website</a></h2>
+            <h2><a href="https://www.youtube.com/watch?v=o0ekVckdBJA" rel="noopener noreferrer" target="_blank" className="projectLink">Demo for New C4C Website</a></h2>
+            <div className="youtubeVideo" >
+              <iframe className="iFrame" title="C4C Website Demo Video" src="https://www.youtube.com/embed/o0ekVckdBJA" frameBorder="0"/>
+            </div>
+            <h2><a href="https://www.youtube.com/watch?v=NYqBBvkUqBk" rel="noopener noreferrer" target="_blank" className="projectLink">Demo for First C4C Website</a></h2>
             <div className="youtubeVideo" >
               <iframe className="iFrame" title="C4C Website Demo Video" src="https://www.youtube.com/embed/NYqBBvkUqBk" frameBorder="0"/>
             </div>

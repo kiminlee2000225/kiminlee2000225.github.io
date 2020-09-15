@@ -2,6 +2,7 @@
     width: 100%;
     min-width: 1400px;
     min-height: 47em;
+    max-height: 85em;
     height: 100vh;
     background-color: #d8c6ae;
     font-family: 'Roboto', sans-serif;

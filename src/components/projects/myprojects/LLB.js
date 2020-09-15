@@ -16,9 +16,9 @@ class LLB extends Component {
             <h2>Partnership with Code 4 Community</h2>
             <h3>Code 4 Community (C4C) created the event planning and ticket purchasing system for all the events hosted by 
                 Lucy's Love Bus for the children and their families.</h3>
-            <h2><a href="https://youtu.be/FwkpEpVPNPs" rel="noopener noreferrer" target="_blank" className="projectLink">Demo</a></h2>
+            <h2><a href="https://youtu.be/aST6ycbDcuk" rel="noopener noreferrer" target="_blank" className="projectLink">Demo</a></h2>
             <div className="youtubeVideo" >
-              <iframe className="iFrame" title="Lucy's Love Bus Demo" src="https://www.youtube.com/embed/wUnngAqSp7g" frameBorder="0"/>
+              <iframe className="iFrame" title="Lucy's Love Bus Demo" src="https://www.youtube.com/embed/aST6ycbDcuk" frameBorder="0"/>
             </div>
             <h2><a href="https://lucyslovebus.org" rel="noopener noreferrer" target="_blank" className="projectLink">Lucy's Love Bus</a></h2>
             <h2><a href="http://lovebusprograms.org/" rel="noopener noreferrer" target="_blank" className="projectLink">Created Software</a></h2>
