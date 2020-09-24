@@ -29,8 +29,8 @@ class About extends Component {
                         of <a href="https://hackbeanpot.com" className="highlightedText"> HackBeanpot</a>, and a programmer/game developer for <a className="highlightedText"> Peach Beach Studios</a>.
                       </h2>
                       <h2>When I’m not coding or building games, I’m either jamming to J-Pop/Korean R&B, learning new songs on the guitar,
-                        immersing myself in the breathtaking world of video games, or relaxing in Japanese-style 
-                        hot springs. Some of my favorite games are Kid Icarus Uprising, League of Legends, Overwatch, FIFA, Disney Villainous, Secret Hitler, and of course, 
+                        immersing myself in the vast world of video games, or relaxing in Japanese-style 
+                        hot springs. Some of my favorite games are Kid Icarus Uprising, League of Legends, Overwatch, FIFA, Overcooked, Disney Villainous, Secret Hitler, and of course, 
                         the Super Smash Bros. series (Incineroar main). 
                       </h2>
                       </ScrollAnimation>
