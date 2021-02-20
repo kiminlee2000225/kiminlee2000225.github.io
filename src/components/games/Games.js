@@ -10,6 +10,7 @@ import ForTraum from "./mygames/ForTraum.js";
 import Scoops from "./mygames/ScoopsGame.js";
 import HostageEscapeRoom from "./mygames/HostageEscapeRoomGame.js";
 import MarbleSolitaire from "./mygames/MarbleSolitaireGame.js";
+import Breakout from "./mygames/Breakout.js";
 import ScrollAnimation from 'react-animate-on-scroll';
 
 let rowSize = 3;
@@ -25,6 +26,7 @@ const games = [{image: '/assets/images/ForTraum.png', title: "For Traum", descri
                {image: '/assets/images/MaysJourneyImage.png', title: "May's Journey", description: "3D Puzzle Programming Game", component: <MaysJourney/>},
                {image: '/assets/images/DefenseHorizonImage.png', title: "Defense Horizon", description: "FPS Turret Defense Game", component: <DefenseHorizon/>},
                {image: "/assets/images/ScoopsImage.png", title: "Scoops", description: "Mobile Bubble Popper Word Game", component: <Scoops/>},
+               {image: "/assets/images/breakout.png", title: "Breakout", description: "Classic Arcade Game", component: <Breakout/>},
                {image: "/assets/images/HostageEscapeRoomImage.png", title: "Hostage Escape Room", description: "First Person Digital Escape Room", component: <HostageEscapeRoom/>},
                {image: "/assets/images/MarbleSolitaireImage.png", title: "Marble Solitaire", description: "Peg Solitaire", component: <MarbleSolitaire/>}];
 

@@ -18,7 +18,7 @@ class About extends Component {
                      <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} delay={300} offset={250}>
                       <h2>Hi! I’m Kimin, a user-focused software engineer and a player-minded 
                         game developer. I’m currently pursuing a Bachelor of Science degree in
-                         <a href="https://www.c4cneu.com" className="highlightedText"> Computer Science & Game Development </a> 
+                         <a href="https://www.khoury.northeastern.edu/programs/bs-combined-major-in-computer-science-and-game-development/" className="highlightedText"> Computer Science & Game Development </a> 
                         at Northeastern University. I’m 
                         passionate about building innovative software and developing breath-taking 
                         and immersive games.</h2>
