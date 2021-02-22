@@ -11,11 +11,18 @@ class Breakout extends Component {
             <h3>Breakout is a 2D arcade game where the player's goal is to "break" all of the bricks on the screen by bouncing the ball
               from the paddle. Breakout is heavily influenced by the Atari arcade game Pong. 
             </h3>
+            <h2><a href="https://github.com/Spring21BuildingGameEngines/monorepo-kiminlee2000225/tree/main/Assignment1_Breakout" rel="noopener noreferrer" target="_blank" className="gameLink">GitHub</a></h2>
+            <h2><a href="/assets/links/breakout/annotated.html" rel="noopener noreferrer" target="_blank" className="gameLink">Documentation</a></h2>
+            <h2><a href="https://drive.google.com/file/d/1P15fmbZgr8ezoeEdS90RRUQbnCCqQGtH/view?usp=sharing" rel="noopener noreferrer" target="_blank" className="gameLink">Game Link for Mac</a></h2>
             <h2><a href="https://www.youtube.com/watch?v=YpIuLUxFhlg" rel="noopener noreferrer" target="_blank" className="gameLink">Gameplay</a></h2>
             <div className="youtubeVideo" >
               <iframe className="iFrame" title="Breakout Gameplay Video" src="https://www.youtube.com/embed/Lugiaxn9kvY" frameBorder="0"/>
             </div>
-            <h2><a href="https://github.com/Spring21BuildingGameEngines/monorepo-kiminlee2000225/tree/main/Assignment1_Breakout" rel="noopener noreferrer" target="_blank" className="gameLink">GitHub</a></h2>
+            <div className="imagesContainerMarble"> 
+            <img className="breakoutImage" src="/assets/images/breakout1.png" alt="Breakout Screenshot"></img>
+            <img className="breakoutImage" src="/assets/images/breakout2.png" alt="Breakout Screenshot 2"></img>
+            <img className="breakoutImage" src="/assets/images/breakoutLanguage.png" alt="Breakout Language Prompt"></img>
+          </div>
             <h2>Tools used</h2>
             <h3>SDL2, C++, Python</h3>
             <h2>What I did</h2>

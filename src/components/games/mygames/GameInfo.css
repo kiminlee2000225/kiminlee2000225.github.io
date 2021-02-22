@@ -75,6 +75,14 @@
     width: 440px;
 }
 
+.breakoutImage {
+    margin: 0 20px;
+    margin-top: 40px;
+    padding-bottom: 15px;
+    height: 210px;
+    width: 300px;
+}
+
 .imagesContainer {
     display: flex;
     justify-content: center;
